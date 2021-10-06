@@ -22,8 +22,8 @@ namespace SousaVaz
 
         private void Bt_Aut_Entrar_click(object sender, EventArgs e)
         {
-            Conexao = new MySqlConnection("Server=https://phpmyadmin.locaweb.com.br; server=grupoamaral.mysql.dbaas.com.br; Username=grupoamaral; Password=Hl47076961; persistsecurityinfo=True; database=grupoamaral");
-            //Conexao = new MySqlConnection("Server=grupoamaral.dyndns.info:3306; service=local@localhost; Username=root; Password=; persistsecurityinfo=False; Database=grupoamaral");
+            //Conexao = new MySqlConnection("Server=https://phpmyadmin.locaweb.com.br; server=grupoamaral.mysql.dbaas.com.br; Username=grupoamaral; Password=Hl47076961; persistsecurityinfo=True; database=grupoamaral");
+            Conexao = new MySqlConnection("Server=grupoamaral.dyndns.info:3306; service=local@localhost; Username=root; Password=; persistsecurityinfo=False; Database=grupoamaral");
             try
             {
 
