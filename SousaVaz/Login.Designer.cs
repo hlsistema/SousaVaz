@@ -130,6 +130,7 @@
             this.label4.Size = new System.Drawing.Size(34, 16);
             this.label4.TabIndex = 5;
             this.label4.Text = "Loja";
+            this.label4.Visible = false;
             // 
             // Cb_Login_Loja
             // 
@@ -147,6 +148,7 @@
             this.Cb_Login_Loja.Name = "Cb_Login_Loja";
             this.Cb_Login_Loja.Size = new System.Drawing.Size(121, 24);
             this.Cb_Login_Loja.TabIndex = 0;
+            this.Cb_Login_Loja.Visible = false;
             // 
             // Login
             // 
