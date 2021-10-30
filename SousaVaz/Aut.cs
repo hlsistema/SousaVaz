@@ -17,58 +17,41 @@ namespace SousaVaz
             InitializeComponent();
         }
 
-        private MySqlConnection Conexao;
-        
+        Conexao conexao = new Conexao(TipoConexao.Conexao.Classe);
 
         private void Bt_Aut_Entrar_click(object sender, EventArgs e)
         {
-            Conexao = new MySqlConnection("Server=https://phpmyadmin.locaweb.com.br; server=grupoamaral.mysql.dbaas.com.br; Username=grupoamaral; Password=Hl47076961; persistsecurityinfo=True; database=grupoamaral");
-            //Conexao = new MySqlConnection("Server=grupoamaral.dyndns.info:3306; service=local@localhost; Username=root; Password=; persistsecurityinfo=False; Database=grupoamaral");
-            try
-            {
+                string query = "SELECT * FROM USUARIO WHERE SENHA ='" + txb_senha_log1.Text + "'";
+                MySqlCommand cmd = new MySqlCommand(query, conexao.conn);
+                cmd.CommandType = System.Data.CommandType.Text;
 
-                Conexao.Open();
-                //MySqlCommand verifica = new MySqlCommand("SELECT * FROM USUARIO WHERE SENHA ='" + txb_senha_log1.Text + "'", Conexao);
-                MySqlCommand verifica = new MySqlCommand("SELECT * FROM FUNCIONARIO WHERE SENHA ='" + txb_senha_log1.Text + "'", Conexao);
-                bool resultado = verifica.ExecuteReader().HasRows;
-                
-                if (resultado == true)
+                if (conexao.OpenConexao() == false)
                 {
-                    Conexao.Close();
                     Principal frm = new Principal();
                     frm.Show();
                     Hide();
-
                 }
+
                 else
                 {
                     MessageBox.Show("Login inválido!");
                     MessageBox.Show("Digite a Senha Correta!");
                     MessageBox.Show("Ou Ligue para o suporte: (21) 98448-7361");
                     txb_senha_log1.Text = "";
-                    Conexao.Close();
-
                 }
-
-            }
-
-            catch
-            {
-                MessageBox.Show("Erro de conexão com o banco de dados");
-                Conexao.Close();
-                this.Close();
-            }
+            
+            
         }
 
-        private void Aut_Load(object sender, EventArgs e)
-        {
+    private void Aut_Load(object sender, EventArgs e)
+    {
 
-        }
-
-        private void Bt_Aut_Sair_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
     }
+
+    private void Bt_Aut_Sair_Click(object sender, EventArgs e)
+    {
+        Application.Exit();
+    }
+}
 }
     

@@ -1,0 +1,182 @@
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\bin\Debug\Grupo Amaral.exe.config
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\bin\Debug\Grupo Amaral.exe
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\bin\Debug\Grupo Amaral.pdb
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Principal.resources
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Properties.Resources.resources
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csproj.GenerateResource.Cache
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csproj.CoreCompileInputs.cache
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.exe
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.pdb
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Consulta.resources
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Login.resources
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Usuario.resources
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\bin\Debug\Grupo Amaral.exe.manifest
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\bin\Debug\Grupo Amaral.application
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.TrustInfo.xml
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.exe.manifest
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.application
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\bin\Debug\MySql.Data.dll
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\bin\Debug\MySql.Web.dll
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\bin\Debug\MySql.Data.xml
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\bin\Debug\MySql.Web.xml
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Aut.resources
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csprojAssemblyReference.cache
+C:\Users\TI\source\repos\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csproj.CopyComplete
+C:\Grupo Amaral\Grupo Amaral\bin\Debug\Grupo Amaral.exe.config
+C:\Grupo Amaral\Grupo Amaral\bin\Debug\Grupo Amaral.exe.manifest
+C:\Grupo Amaral\Grupo Amaral\bin\Debug\Grupo Amaral.application
+C:\Grupo Amaral\Grupo Amaral\bin\Debug\Grupo Amaral.exe
+C:\Grupo Amaral\Grupo Amaral\bin\Debug\Grupo Amaral.pdb
+C:\Grupo Amaral\Grupo Amaral\bin\Debug\MySql.Data.xml
+C:\Grupo Amaral\Grupo Amaral\bin\Debug\MySql.Web.xml
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csprojAssemblyReference.cache
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Aut.resources
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Consulta.resources
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Login.resources
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Principal.resources
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Properties.Resources.resources
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Usuario.resources
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csproj.GenerateResource.cache
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csproj.CoreCompileInputs.cache
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.TrustInfo.xml
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.exe.manifest
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.application
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csproj.CopyComplete
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.exe
+C:\Grupo Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.pdb
+C:\Grupo_Amaral\Grupo Amaral\bin\Debug\MySql.Data.xml
+C:\Grupo_Amaral\Grupo Amaral\bin\Debug\MySql.Web.xml
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csprojAssemblyReference.cache
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Aut.resources
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Consulta.resources
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Login.resources
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Principal.resources
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Properties.Resources.resources
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Grupo_Amaral.Usuario.resources
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csproj.GenerateResource.cache
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csproj.CoreCompileInputs.cache
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Grupo Amaral.csproj.CopyComplete
+C:\Grupo_Amaral\Grupo Amaral\bin\Debug\Consulta & Cotação.exe.config
+C:\Grupo_Amaral\Grupo Amaral\bin\Debug\Consulta & Cotação.exe.manifest
+C:\Grupo_Amaral\Grupo Amaral\bin\Debug\Consulta & Cotação.application
+C:\Grupo_Amaral\Grupo Amaral\bin\Debug\Consulta & Cotação.exe
+C:\Grupo_Amaral\Grupo Amaral\bin\Debug\Consulta & Cotação.pdb
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Consulta & Cotação.TrustInfo.xml
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Consulta & Cotação.exe.manifest
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Consulta & Cotação.application
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Consulta & Cotação.exe
+C:\Grupo_Amaral\Grupo Amaral\obj\Debug\Consulta & Cotação.pdb
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Aut.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Consulta.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Principal.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Usuario.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.GenerateResource.cache
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Properties.Resources.resources
+C:\SousaVaz\SousaVaz\bin\Debug\Consulta.exe.config
+C:\SousaVaz\SousaVaz\bin\Debug\Consulta.exe.manifest
+C:\SousaVaz\SousaVaz\bin\Debug\Consulta.application
+C:\SousaVaz\SousaVaz\bin\Debug\Consulta.exe
+C:\SousaVaz\SousaVaz\bin\Debug\Consulta.pdb
+C:\SousaVaz\SousaVaz\obj\Debug\Consulta.TrustInfo.xml
+C:\SousaVaz\SousaVaz\obj\Debug\Consulta.exe.manifest
+C:\SousaVaz\SousaVaz\obj\Debug\Consulta.application
+C:\SousaVaz\SousaVaz\obj\Debug\Consulta.exe
+C:\SousaVaz\SousaVaz\obj\Debug\Consulta.pdb
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Login.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Metodoconexao.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Fabricante.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Fornecedor.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Grupo.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Produto.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Acao.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Acao.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Aut.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Consulta.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Fabricante.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Fornecedor.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Grupo.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Login.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Metodoconexao.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Principal.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Produto.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Properties.Resources.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Usuario.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.GenerateResource.cache
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\Consulta.exe
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\Consulta.pdb
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\bin\Debug\Consulta.exe.config
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\bin\Debug\Consulta.exe.manifest
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\bin\Debug\Consulta.application
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\bin\Debug\Consulta.exe
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\bin\Debug\Consulta.pdb
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.CoreCompileInputs.cache
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\Consulta.TrustInfo.xml
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\Consulta.exe.manifest
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\Consulta.application
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.CopyComplete
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Loja.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Validade.resources
+C:\Users\hfv83\Google Drive\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csprojAssemblyReference.cache
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Loja.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Validade.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\bin\Debug\Consulta.exe.config
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\bin\Debug\Consulta.exe.manifest
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\bin\Debug\Consulta.application
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\bin\Debug\Consulta.exe
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\bin\Debug\Consulta.pdb
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Acao.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Aut.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Consulta.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Fabricante.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Fornecedor.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Grupo.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Login.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Loja.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Metodoconexao.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Principal.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Produto.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Properties.Resources.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Usuario.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Validade.resources
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.GenerateResource.cache
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\Consulta.TrustInfo.xml
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\Consulta.exe.manifest
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\Consulta.application
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.CopyComplete
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\Consulta.exe
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\Consulta.pdb
+C:\Users\Hugo\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csprojAssemblyReference.cache
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\bin\Debug\Consulta.exe.config
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\bin\Debug\Consulta.exe.manifest
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\bin\Debug\Consulta.application
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\bin\Debug\Consulta.exe
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\bin\Debug\Consulta.pdb
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csprojAssemblyReference.cache
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Acao.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Aut.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Consulta.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Fabricante.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Fornecedor.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Grupo.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Login.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Loja.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Metodoconexao.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Principal.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Produto.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Properties.Resources.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Usuario.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Validade.resources
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.GenerateResource.cache
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.CoreCompileInputs.cache
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\Consulta.TrustInfo.xml
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\Consulta.exe.manifest
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\Consulta.application
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.CopyComplete
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\Consulta.exe
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\Consulta.pdb
+C:\Users\hfv83\Dropbox\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Preco.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.AssemblyReference.cache
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Preco.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.CoreCompileInputs.cache
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Permissao.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.web.resources
