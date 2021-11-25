@@ -18,6 +18,7 @@ namespace SousaVaz
             InitializeComponent();
         }
 
+        
         private void Usuario_Load(object sender, EventArgs e)
         {
 

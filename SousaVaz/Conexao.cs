@@ -10,11 +10,11 @@ namespace SousaVaz
 
         
         // Variaveis de configuração de acesso ao banco de dados
-        private string Server = "https://phpmyadmin.locaweb.com.br";
-        private string Server1 = "grupoamaral.mysql.dbaas.com.br";
-        private string Database = "grupoamaral";
-        private string Usuario = "grupoamaral";
-        private string Senha = "Hl47076961";
+        public string Server = "https://phpmyadmin.locaweb.com.br";
+        public string Server1 = "grupoamaral.mysql.dbaas.com.br";
+        public string Database = "grupoamaral";
+        public string Usuario = "grupoamaral";
+        public string Senha = "Hl47076961";
 
 
         public MySqlConnection conn;
@@ -81,12 +81,6 @@ namespace SousaVaz
             conn.Close();
             conn.Dispose();
         }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="Variavel"></param>
-        /// <returns></returns>
      }
 
     /// <summary>

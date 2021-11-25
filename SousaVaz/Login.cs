@@ -19,7 +19,7 @@ namespace SousaVaz
         }
 
         private MySqlConnection Conexao;
-        
+
 
         private void Bt_Login_Entrar_click(object sender, EventArgs e)
         { 

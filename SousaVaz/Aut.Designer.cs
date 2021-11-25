@@ -36,7 +36,7 @@
             this.txb_usu_log2 = new System.Windows.Forms.TextBox();
             this.label33 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.bt_sair1 = new System.Windows.Forms.Button();
+            this.Bt_Aut_Entrar = new System.Windows.Forms.Button();
             this.txb_senha_log1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -119,15 +119,15 @@
             this.label22.TabIndex = 9;
             this.label22.Text = "Usuário";
             // 
-            // bt_sair1
+            // Bt_Aut_Entrar
             // 
-            this.bt_sair1.Location = new System.Drawing.Point(116, 83);
-            this.bt_sair1.Name = "bt_sair1";
-            this.bt_sair1.Size = new System.Drawing.Size(70, 31);
-            this.bt_sair1.TabIndex = 1;
-            this.bt_sair1.Text = "&Entrar";
-            this.bt_sair1.UseVisualStyleBackColor = true;
-            this.bt_sair1.Click += new System.EventHandler(this.Bt_Aut_Entrar_click);
+            this.Bt_Aut_Entrar.Location = new System.Drawing.Point(116, 83);
+            this.Bt_Aut_Entrar.Name = "Bt_Aut_Entrar";
+            this.Bt_Aut_Entrar.Size = new System.Drawing.Size(70, 31);
+            this.Bt_Aut_Entrar.TabIndex = 1;
+            this.Bt_Aut_Entrar.Text = "&Entrar";
+            this.Bt_Aut_Entrar.UseVisualStyleBackColor = true;
+            this.Bt_Aut_Entrar.Click += new System.EventHandler(this.Bt_Aut_Entrar_click);
             // 
             // txb_senha_log1
             // 
@@ -188,7 +188,7 @@
             this.Controls.Add(this.Bt_Aut_Sair);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.bt_sair1);
+            this.Controls.Add(this.Bt_Aut_Entrar);
             this.Controls.Add(this.txb_senha_log1);
             this.Controls.Add(this.label5);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -213,7 +213,7 @@
         private System.Windows.Forms.TextBox txb_usu_log2;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Button bt_sair1;
+        private System.Windows.Forms.Button Bt_Aut_Entrar;
         private System.Windows.Forms.TextBox txb_senha_log1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
