@@ -40,8 +40,10 @@ namespace SousaVaz
                 //string de conexão com o mysql
                 string CONFIG = ("Persist Security Info=False; Server=https://phpmyadmin.locaweb.com.br; server=grupoamaral.mysql.dbaas.com.br; Username=grupoamaral; Password=Hl47076961; database=grupoamaral");
                 MySqlConnection Conexao = new MySqlConnection(CONFIG);
-                MySqlCommand Query = new MySqlCommand();
-                Query.Connection = Conexao;
+                MySqlCommand Query = new MySqlCommand
+                {
+                    Connection = Conexao
+                };
                 Conexao.Open();
                 //string de inclusão de dados no Mysql
                 Query.CommandText = "INSERT INTO USUARIO(Nome,Senha,Permissao) VALUES(@Nome, @Senha, @Permissao)";

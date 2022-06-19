@@ -23,9 +23,20 @@ namespace SousaVaz
         {
             GetConexao(TConexao);
         }
+
+        internal static void Open()
+        {
+            throw new NotImplementedException();
+        }
+
         public Conexao()
         {
             GetConexao(TipoConexao.Conexao.Classe);
+        }
+
+        internal static void Close()
+        {
+            throw new NotImplementedException();
         }
 
         // Verifica se existe erro

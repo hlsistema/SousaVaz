@@ -22,13 +22,13 @@ namespace SousaVaz
 
         private void Bt_Aut_Entrar_click(object sender, EventArgs e)
         {
-            Conexao conexao = new Conexao(TipoConexao.Conexao.Classe);
+            _ = new Conexao(TipoConexao.Conexao.Classe);
 
             try
             {
 
                 Conexao.Open();
-                MySqlCommand verifica = new MySqlCommand("SELECT * FROM FUNCIONARIO WHERE SENHA ='" + txb_senha_log1.Text + "'", Conexao);
+                MySqlCommand verifica = new MySqlCommand("SELECT * FROM FUNCIONARIO WHERE SENHA ='" + txb_senha_log1.Text + "'");
                 bool resultado = verifica.ExecuteReader().HasRows;
 
                 if (resultado == true)

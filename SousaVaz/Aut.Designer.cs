@@ -167,9 +167,9 @@
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label5.Location = new System.Drawing.Point(158, 9);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(62, 20);
+            this.label5.Size = new System.Drawing.Size(71, 20);
             this.label5.TabIndex = 6;
-            this.label5.Text = "Acesso";
+            this.label5.Text = "Acesso1";
             // 
             // Bt_Aut_Sair
             // 

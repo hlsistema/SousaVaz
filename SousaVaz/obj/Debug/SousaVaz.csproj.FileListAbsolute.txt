@@ -180,3 +180,5 @@ C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Preco.resources
 C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.CoreCompileInputs.cache
 C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.Permissao.resources
 C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.web.resources
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.CopyComplete
+C:\SousaVaz\SousaVaz\obj\Debug\SousaVaz.csproj.SuggestedBindingRedirects.cache

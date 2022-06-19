@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>yX7IWbc4fcnuvEgLxgq+9Aq+NZ+SZtWAzVqUNVzfPIs=</dsig:DigestValue>
+        <dsig:DigestValue>Vo5Dr2uiudDSimzNMfZw3koKimI8Nb1zGFkpX33m6Ic=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -66,13 +66,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Consulta.exe.config" size="523">
+  <file name="Consulta.exe.config" size="517">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>j0Qm61oyklzcHP4N3BuIqf4DGBE0I/LmKhtnUrRUIec=</dsig:DigestValue>
+      <dsig:DigestValue>sUjL6CJK3s3C8iEoytd9dacYuLYraF5za5Jb8Gz+u7g=</dsig:DigestValue>
     </hash>
   </file>
   <file name="PerfCenterCpl.ico" size="116288">
