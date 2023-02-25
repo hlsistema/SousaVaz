@@ -75,9 +75,9 @@ namespace SV
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.FinalizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.horárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -92,6 +92,7 @@ namespace SV
             this.comprasToolStripMenuItem,
             this.dPToolStripMenuItem,
             this.transferênciaToolStripMenuItem,
+            this.horárioToolStripMenuItem,
             this.produtoToolStripMenuItem,
             this.rTToolStripMenuItem,
             this.atualizaçãoToolStripMenuItem,
@@ -100,7 +101,7 @@ namespace SV
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Margin = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(780, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(1004, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -114,7 +115,6 @@ namespace SV
             this.administraçãoToolStripMenuItem.Name = "administraçãoToolStripMenuItem";
             this.administraçãoToolStripMenuItem.Size = new System.Drawing.Size(122, 25);
             this.administraçãoToolStripMenuItem.Text = "Administração";
-            this.administraçãoToolStripMenuItem.Visible = false;
             // 
             // lojasToolStripMenuItem
             // 
@@ -174,7 +174,6 @@ namespace SV
             this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
             this.comprasToolStripMenuItem.Size = new System.Drawing.Size(85, 25);
             this.comprasToolStripMenuItem.Text = "Compras";
-            this.comprasToolStripMenuItem.Visible = false;
             // 
             // custoToolStripMenuItem
             // 
@@ -205,7 +204,6 @@ namespace SV
             this.dPToolStripMenuItem.Name = "dPToolStripMenuItem";
             this.dPToolStripMenuItem.Size = new System.Drawing.Size(42, 25);
             this.dPToolStripMenuItem.Text = "DP";
-            this.dPToolStripMenuItem.Visible = false;
             // 
             // cargosToolStripMenuItem
             // 
@@ -248,24 +246,23 @@ namespace SV
             this.transferênciaToolStripMenuItem.Name = "transferênciaToolStripMenuItem";
             this.transferênciaToolStripMenuItem.Size = new System.Drawing.Size(51, 25);
             this.transferênciaToolStripMenuItem.Text = "Loja";
-            this.transferênciaToolStripMenuItem.Visible = false;
             // 
             // baixasToolStripMenuItem
             // 
             this.baixasToolStripMenuItem.Name = "baixasToolStripMenuItem";
-            this.baixasToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.baixasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.baixasToolStripMenuItem.Text = "Baixas";
             // 
             // pedidoToolStripMenuItem1
             // 
             this.pedidoToolStripMenuItem1.Name = "pedidoToolStripMenuItem1";
-            this.pedidoToolStripMenuItem1.Size = new System.Drawing.Size(179, 26);
+            this.pedidoToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
             this.pedidoToolStripMenuItem1.Text = "Pedido";
             // 
             // transferênciasToolStripMenuItem
             // 
             this.transferênciasToolStripMenuItem.Name = "transferênciasToolStripMenuItem";
-            this.transferênciasToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.transferênciasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.transferênciasToolStripMenuItem.Text = "Transferências";
             // 
             // notaFiscalToolStripMenuItem
@@ -274,7 +271,7 @@ namespace SV
             this.lançarToolStripMenuItem1,
             this.relatórioToolStripMenuItem1});
             this.notaFiscalToolStripMenuItem.Name = "notaFiscalToolStripMenuItem";
-            this.notaFiscalToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.notaFiscalToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.notaFiscalToolStripMenuItem.Text = "Nota Fiscal";
             // 
             // lançarToolStripMenuItem1
@@ -297,7 +294,6 @@ namespace SV
             this.produtoToolStripMenuItem.Name = "produtoToolStripMenuItem";
             this.produtoToolStripMenuItem.Size = new System.Drawing.Size(67, 25);
             this.produtoToolStripMenuItem.Text = "Balcao";
-            this.produtoToolStripMenuItem.Visible = false;
             // 
             // consultarToolStripMenuItem
             // 
@@ -320,7 +316,6 @@ namespace SV
             this.rTToolStripMenuItem.Name = "rTToolStripMenuItem";
             this.rTToolStripMenuItem.Size = new System.Drawing.Size(39, 25);
             this.rTToolStripMenuItem.Text = "RT";
-            this.rTToolStripMenuItem.Visible = false;
             // 
             // lançarToolStripMenuItem
             // 
@@ -344,7 +339,6 @@ namespace SV
             this.atualizaçãoToolStripMenuItem.Name = "atualizaçãoToolStripMenuItem";
             this.atualizaçãoToolStripMenuItem.Size = new System.Drawing.Size(41, 25);
             this.atualizaçãoToolStripMenuItem.Text = "SV";
-            this.atualizaçãoToolStripMenuItem.Visible = false;
             // 
             // acessoToolStripMenuItem
             // 
@@ -403,7 +397,6 @@ namespace SV
             this.suporteToolStripMenuItem.Name = "suporteToolStripMenuItem";
             this.suporteToolStripMenuItem.Size = new System.Drawing.Size(77, 25);
             this.suporteToolStripMenuItem.Text = "Suporte";
-            this.suporteToolStripMenuItem.Visible = false;
             // 
             // acessoToolStripMenuItem1
             // 
@@ -435,37 +428,15 @@ namespace SV
             // 
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1,
-            this.toolStripStatusLabel3,
-            this.toolStripStatusLabel2});
+            this.toolStripStatusLabel2,
+            this.toolStripStatusLabel1});
             this.statusStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
-            this.statusStrip1.Location = new System.Drawing.Point(0, 533);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 701);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(780, 24);
+            this.statusStrip1.Size = new System.Drawing.Size(1004, 24);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.StatusStrip1_ItemClicked);
-            // 
-            // toolStripStatusLabel1
-            // 
-            this.toolStripStatusLabel1.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.toolStripStatusLabel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.toolStripStatusLabel1.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Top;
-            this.toolStripStatusLabel1.BorderStyle = System.Windows.Forms.Border3DStyle.Raised;
-            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(338, 19);
-            this.toolStripStatusLabel1.Text = "QUAL É O SEU PRÓXIMO? ## Até aqui nos ajudou o Senhor!";
-            // 
-            // toolStripStatusLabel3
-            // 
-            this.toolStripStatusLabel3.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.toolStripStatusLabel3.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Top;
-            this.toolStripStatusLabel3.BorderStyle = System.Windows.Forms.Border3DStyle.Raised;
-            this.toolStripStatusLabel3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(74, 19);
-            this.toolStripStatusLabel3.Text = "Hugo F. Vaz";
             // 
             // toolStripStatusLabel2
             // 
@@ -474,15 +445,31 @@ namespace SV
             this.toolStripStatusLabel2.BorderStyle = System.Windows.Forms.Border3DStyle.Raised;
             this.toolStripStatusLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(154, 19);
-            this.toolStripStatusLabel2.Text = "Tel.: +55 (21) 98448-7361";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(116, 19);
+            this.toolStripStatusLabel2.Text = "LICENCIADO PARA:";
+            // 
+            // toolStripStatusLabel1
+            // 
+            this.toolStripStatusLabel1.BackColor = System.Drawing.Color.AntiqueWhite;
+            this.toolStripStatusLabel1.BorderSides = System.Windows.Forms.ToolStripStatusLabelBorderSides.Top;
+            this.toolStripStatusLabel1.BorderStyle = System.Windows.Forms.Border3DStyle.Raised;
+            this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(142, 19);
+            this.toolStripStatusLabel1.Text = "NESTRAL RACOES LTDA";
+            // 
+            // horárioToolStripMenuItem
+            // 
+            this.horárioToolStripMenuItem.Name = "horárioToolStripMenuItem";
+            this.horárioToolStripMenuItem.Size = new System.Drawing.Size(75, 25);
+            this.horárioToolStripMenuItem.Text = "Horário";
             // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(780, 557);
+            this.ClientSize = new System.Drawing.Size(1004, 725);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -491,7 +478,7 @@ namespace SV
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SV - EV";
+            this.Text = "SV - SISTEMA DE GESTÃO INTEGRADA";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Principal_FormClosed);
             this.Load += new System.EventHandler(this.Principal_Load);
@@ -524,9 +511,7 @@ namespace SV
         private System.Windows.Forms.ToolStripMenuItem baixasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem transferênciasToolStripMenuItem;
         private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
-        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         private System.Windows.Forms.ToolStripMenuItem scriptToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acessoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cargosToolStripMenuItem;
@@ -555,6 +540,8 @@ namespace SV
         private System.Windows.Forms.ToolStripMenuItem fabricanteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem preçoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem produtoToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.ToolStripMenuItem horárioToolStripMenuItem;
     }
 }
 

@@ -28,31 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.cADASTRARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cCONSULTARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aLTERARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(90, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 25);
-            this.label1.TabIndex = 26;
-            this.label1.Text = "Fabricante";
             // 
             // textBox3
             // 
             this.textBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox3.Location = new System.Drawing.Point(67, 53);
+            this.textBox3.Location = new System.Drawing.Point(67, 39);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(205, 26);
             this.textBox3.TabIndex = 40;
@@ -60,7 +50,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 56);
+            this.label4.Location = new System.Drawing.Point(12, 42);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 20);
             this.label4.TabIndex = 41;
@@ -69,67 +59,54 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 138);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 71);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(260, 107);
             this.dataGridView1.TabIndex = 49;
             // 
-            // button3
+            // menuStrip1
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(210, 94);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(62, 38);
-            this.button3.TabIndex = 47;
-            this.button3.Text = "&Todos";
-            this.button3.UseVisualStyleBackColor = true;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cADASTRARToolStripMenuItem,
+            this.cCONSULTARToolStripMenuItem,
+            this.aLTERARToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(281, 24);
+            this.menuStrip1.TabIndex = 50;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // button2
+            // cADASTRARToolStripMenuItem
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(131, 94);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(73, 38);
-            this.button2.TabIndex = 46;
-            this.button2.Text = "C&onsultar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.cADASTRARToolStripMenuItem.Name = "cADASTRARToolStripMenuItem";
+            this.cADASTRARToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
+            this.cADASTRARToolStripMenuItem.Text = "&CADASTRAR";
             // 
-            // button1
+            // cCONSULTARToolStripMenuItem
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 94);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(51, 38);
-            this.button1.TabIndex = 45;
-            this.button1.Text = "&Incluir";
-            this.button1.UseVisualStyleBackColor = true;
+            this.cCONSULTARToolStripMenuItem.Name = "cCONSULTARToolStripMenuItem";
+            this.cCONSULTARToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.cCONSULTARToolStripMenuItem.Text = "C&ONSULTAR";
             // 
-            // button4
+            // aLTERARToolStripMenuItem
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(69, 94);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(56, 38);
-            this.button4.TabIndex = 50;
-            this.button4.Text = "&Alterar";
-            this.button4.UseVisualStyleBackColor = true;
+            this.aLTERARToolStripMenuItem.Name = "aLTERARToolStripMenuItem";
+            this.aLTERARToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.aLTERARToolStripMenuItem.Text = "&ALTERAR";
             // 
             // Fabricante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(287, 253);
-            this.Controls.Add(this.button4);
+            this.ClientSize = new System.Drawing.Size(281, 192);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -138,20 +115,20 @@
             this.Text = "Fabricante";
             this.Load += new System.EventHandler(this.Fabricante_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem cADASTRARToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cCONSULTARToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aLTERARToolStripMenuItem;
     }
 }

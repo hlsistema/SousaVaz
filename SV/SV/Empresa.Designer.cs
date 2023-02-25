@@ -29,15 +29,10 @@ namespace SV
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -55,18 +50,13 @@ namespace SV
             this.label10 = new System.Windows.Forms.Label();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.cADATRARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cONSULTARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aLTERARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(130, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Empresa";
             // 
             // label2
             // 
@@ -104,46 +94,10 @@ namespace SV
             this.textBox2.Size = new System.Drawing.Size(114, 26);
             this.textBox2.TabIndex = 1;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(12, 266);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 35);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "&Cadastrar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(106, 266);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(92, 35);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "C&onsultar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(204, 266);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(65, 35);
-            this.button3.TabIndex = 12;
-            this.button3.Text = "&Todas";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(275, 266);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(69, 35);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "&Limpar";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 307);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 266);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(332, 104);
             this.dataGridView1.TabIndex = 14;
@@ -284,12 +238,42 @@ namespace SV
             this.label11.TabIndex = 24;
             this.label11.Text = "E-mail:";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cADATRARToolStripMenuItem,
+            this.cONSULTARToolStripMenuItem,
+            this.aLTERARToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(356, 24);
+            this.menuStrip1.TabIndex = 25;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // cADATRARToolStripMenuItem
+            // 
+            this.cADATRARToolStripMenuItem.Name = "cADATRARToolStripMenuItem";
+            this.cADATRARToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
+            this.cADATRARToolStripMenuItem.Text = "&CADATRAR";
+            // 
+            // cONSULTARToolStripMenuItem
+            // 
+            this.cONSULTARToolStripMenuItem.Name = "cONSULTARToolStripMenuItem";
+            this.cONSULTARToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.cONSULTARToolStripMenuItem.Text = "C&ONSULTAR";
+            // 
+            // aLTERARToolStripMenuItem
+            // 
+            this.aLTERARToolStripMenuItem.Name = "aLTERARToolStripMenuItem";
+            this.aLTERARToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.aLTERARToolStripMenuItem.Text = "&ALTERAR";
+            // 
             // Empresa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(356, 423);
+            this.ClientSize = new System.Drawing.Size(356, 377);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.textBox8);
@@ -307,40 +291,33 @@ namespace SV
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Empresa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cadastro e Consulta de Empresa";
+            this.Text = "EMPRESA";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
@@ -358,5 +335,9 @@ namespace SV
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem cADATRARToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cONSULTARToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aLTERARToolStripMenuItem;
     }
 }

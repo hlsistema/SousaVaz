@@ -8,5 +8,10 @@ namespace SV
         {
             InitializeComponent();
         }
+
+        private void Bt_Sair_Script_Click(object sender, System.EventArgs e)
+        {
+            Close();
+        }
     }
 }
