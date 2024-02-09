@@ -121,6 +121,7 @@
     <Compile Include="Cargo.Designer.cs">
       <DependentUpon>Cargo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class_Cargo.cs" />
     <Compile Include="Class_Empresa.cs" />
     <Compile Include="Class_Conexao.cs" />
     <Compile Include="Class_Fabricante.cs" />
