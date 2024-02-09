@@ -9,10 +9,9 @@ namespace SV
 
 
         // Variaveis de configuração de acesso ao banco de dados
-        public string Server = "http://nestral.dyndns.info:3306";
-        public string Server1 = "mysql@localhost:3306";
-        public string Usuario = "root";
-        public string Senha = "";
+        public string Server = "grupoamaral.mysql.dbaas.com.br";
+        public string Usuario = "grupoamaral";
+        public string Senha = "Hl47076961";
         public string Database = "grupoamaral";
 
         
@@ -57,7 +56,7 @@ namespace SV
                 string connectionStrings = "";
                 if (TConexao == TipoConexao.Conexao.Classe)
                 {
-                    connectionStrings = string.Format("server={0}; server1={1}; usuario={2};senha={3}; database={1};Connect Timeout=28800;Command Timeout=2880", this.Server, this.Server1, this.Database, this.Usuario, this.Senha);
+                    connectionStrings = string.Format("server={0}; usuario={1};senha={2}; database={3};Connect Timeout=28800;Command Timeout=2880", this.Server, this.Database, this.Usuario, this.Senha);
                 }
 
                 this.conn = new MySqlConnection(connectionStrings);

@@ -31,24 +31,24 @@ namespace SV
         {
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtboxcnpje = new System.Windows.Forms.TextBox();
+            this.txtboxiee = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtboxnomee = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtboxcepe = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtboxbairroe = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtboxende = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtboxcidadee = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtboxtelefonee = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtboxufe = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtboxemaile = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cADATRARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -76,23 +76,23 @@ namespace SV
             this.label3.TabIndex = 2;
             this.label3.Text = "I.E";
             // 
-            // textBox1
+            // txtboxcnpje
             // 
-            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox1.Location = new System.Drawing.Point(63, 42);
-            this.textBox1.MaxLength = 0;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(126, 26);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtboxcnpje.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtboxcnpje.Location = new System.Drawing.Point(63, 42);
+            this.txtboxcnpje.MaxLength = 0;
+            this.txtboxcnpje.Name = "txtboxcnpje";
+            this.txtboxcnpje.Size = new System.Drawing.Size(126, 26);
+            this.txtboxcnpje.TabIndex = 0;
+            this.txtboxcnpje.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // txtboxiee
             // 
-            this.textBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox2.Location = new System.Drawing.Point(230, 42);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(114, 26);
-            this.textBox2.TabIndex = 1;
+            this.txtboxiee.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtboxiee.Location = new System.Drawing.Point(230, 42);
+            this.txtboxiee.Name = "txtboxiee";
+            this.txtboxiee.Size = new System.Drawing.Size(114, 26);
+            this.txtboxiee.TabIndex = 1;
             // 
             // dataGridView1
             // 
@@ -102,13 +102,13 @@ namespace SV
             this.dataGridView1.Size = new System.Drawing.Size(332, 104);
             this.dataGridView1.TabIndex = 14;
             // 
-            // textBox3
+            // txtboxnomee
             // 
-            this.textBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox3.Location = new System.Drawing.Point(63, 74);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(281, 26);
-            this.textBox3.TabIndex = 2;
+            this.txtboxnomee.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtboxnomee.Location = new System.Drawing.Point(63, 74);
+            this.txtboxnomee.Name = "txtboxnomee";
+            this.txtboxnomee.Size = new System.Drawing.Size(281, 26);
+            this.txtboxnomee.TabIndex = 2;
             // 
             // label4
             // 
@@ -119,13 +119,13 @@ namespace SV
             this.label4.TabIndex = 10;
             this.label4.Text = "Nome";
             // 
-            // textBox4
+            // txtboxcepe
             // 
-            this.textBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox4.Location = new System.Drawing.Point(63, 106);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(104, 26);
-            this.textBox4.TabIndex = 3;
+            this.txtboxcepe.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtboxcepe.Location = new System.Drawing.Point(63, 106);
+            this.txtboxcepe.Name = "txtboxcepe";
+            this.txtboxcepe.Size = new System.Drawing.Size(104, 26);
+            this.txtboxcepe.TabIndex = 3;
             // 
             // label5
             // 
@@ -136,13 +136,13 @@ namespace SV
             this.label5.TabIndex = 12;
             this.label5.Text = "CEP:";
             // 
-            // textBox5
+            // txtboxbairroe
             // 
-            this.textBox5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox5.Location = new System.Drawing.Point(63, 170);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(104, 26);
-            this.textBox5.TabIndex = 5;
+            this.txtboxbairroe.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtboxbairroe.Location = new System.Drawing.Point(63, 170);
+            this.txtboxbairroe.Name = "txtboxbairroe";
+            this.txtboxbairroe.Size = new System.Drawing.Size(104, 26);
+            this.txtboxbairroe.TabIndex = 5;
             // 
             // label6
             // 
@@ -153,13 +153,13 @@ namespace SV
             this.label6.TabIndex = 16;
             this.label6.Text = "Bairro:";
             // 
-            // textBox6
+            // txtboxende
             // 
-            this.textBox6.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox6.Location = new System.Drawing.Point(63, 138);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(281, 26);
-            this.textBox6.TabIndex = 4;
+            this.txtboxende.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtboxende.Location = new System.Drawing.Point(63, 138);
+            this.txtboxende.Name = "txtboxende";
+            this.txtboxende.Size = new System.Drawing.Size(281, 26);
+            this.txtboxende.TabIndex = 4;
             // 
             // label7
             // 
@@ -170,13 +170,13 @@ namespace SV
             this.label7.TabIndex = 14;
             this.label7.Text = "End.";
             // 
-            // textBox7
+            // txtboxcidadee
             // 
-            this.textBox7.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox7.Location = new System.Drawing.Point(240, 170);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(104, 26);
-            this.textBox7.TabIndex = 6;
+            this.txtboxcidadee.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtboxcidadee.Location = new System.Drawing.Point(240, 170);
+            this.txtboxcidadee.Name = "txtboxcidadee";
+            this.txtboxcidadee.Size = new System.Drawing.Size(104, 26);
+            this.txtboxcidadee.TabIndex = 6;
             // 
             // label8
             // 
@@ -187,13 +187,13 @@ namespace SV
             this.label8.TabIndex = 18;
             this.label8.Text = "Cidade:";
             // 
-            // textBox8
+            // txtboxtelefonee
             // 
-            this.textBox8.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox8.Location = new System.Drawing.Point(240, 202);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(104, 26);
-            this.textBox8.TabIndex = 8;
+            this.txtboxtelefonee.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtboxtelefonee.Location = new System.Drawing.Point(240, 202);
+            this.txtboxtelefonee.Name = "txtboxtelefonee";
+            this.txtboxtelefonee.Size = new System.Drawing.Size(104, 26);
+            this.txtboxtelefonee.TabIndex = 8;
             // 
             // label9
             // 
@@ -204,13 +204,13 @@ namespace SV
             this.label9.TabIndex = 22;
             this.label9.Text = "Telefone:";
             // 
-            // textBox9
+            // txtboxufe
             // 
-            this.textBox9.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox9.Location = new System.Drawing.Point(63, 202);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(104, 26);
-            this.textBox9.TabIndex = 7;
+            this.txtboxufe.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtboxufe.Location = new System.Drawing.Point(63, 202);
+            this.txtboxufe.Name = "txtboxufe";
+            this.txtboxufe.Size = new System.Drawing.Size(104, 26);
+            this.txtboxufe.TabIndex = 7;
             // 
             // label10
             // 
@@ -221,13 +221,13 @@ namespace SV
             this.label10.TabIndex = 20;
             this.label10.Text = "UF:";
             // 
-            // textBox10
+            // txtboxemaile
             // 
-            this.textBox10.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox10.Location = new System.Drawing.Point(63, 234);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(281, 26);
-            this.textBox10.TabIndex = 9;
+            this.txtboxemaile.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtboxemaile.Location = new System.Drawing.Point(63, 234);
+            this.txtboxemaile.Name = "txtboxemaile";
+            this.txtboxemaile.Size = new System.Drawing.Size(281, 26);
+            this.txtboxemaile.TabIndex = 9;
             // 
             // label11
             // 
@@ -255,6 +255,7 @@ namespace SV
             this.cADATRARToolStripMenuItem.Name = "cADATRARToolStripMenuItem";
             this.cADATRARToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
             this.cADATRARToolStripMenuItem.Text = "&CADATRAR";
+            this.cADATRARToolStripMenuItem.Click += new System.EventHandler(this.cADATRARToolStripMenuItem_Click);
             // 
             // cONSULTARToolStripMenuItem
             // 
@@ -274,30 +275,30 @@ namespace SV
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(356, 377);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txtboxemaile);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.txtboxtelefonee);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.txtboxufe);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.txtboxcidadee);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.txtboxbairroe);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.txtboxende);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtboxcepe);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtboxnomee);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtboxiee);
+            this.Controls.Add(this.txtboxcnpje);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
@@ -316,24 +317,24 @@ namespace SV
         #endregion
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtboxcnpje;
+        private System.Windows.Forms.TextBox txtboxiee;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtboxnomee;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtboxcepe;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtboxbairroe;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtboxende;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtboxcidadee;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtboxtelefonee;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtboxufe;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtboxemaile;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cADATRARToolStripMenuItem;

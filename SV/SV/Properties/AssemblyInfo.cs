@@ -1,15 +1,16 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.InteropServices;
 
 // As informações gerais sobre um assembly são controladas por
 // conjunto de atributos. Altere estes valores de atributo para modificar as informações
 // associadas a um assembly.
-[assembly: AssemblyTitle("EV - Erp")]
+[assembly: AssemblyTitle("SV - Erp")]
 [assembly: AssemblyDescription("Software para cadastro, consultas e cotações de produtos. Software também para departamento pessoal.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("SV Produtos e Serviços")]
-[assembly: AssemblyProduct("EV - Erp")]
-[assembly: AssemblyCopyright("Copyright Hugo Ferreira Vaz ©  2022")]
+[assembly: AssemblyProduct("SV - Erp")]
+[assembly: AssemblyCopyright("Copyright Hugo Ferreira Vaz ©  2023")]
 [assembly: AssemblyTrademark("SV Produtos")]
 [assembly: AssemblyCulture("")]
 
@@ -33,3 +34,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: NeutralResourcesLanguage("pt-BR")]

@@ -1,15 +1,4 @@
-C:\SousaVaz\SV\SV\bin\Debug\Google.Protobuf.dll
-C:\SousaVaz\SV\SV\bin\Debug\ZstdNet.dll
-C:\SousaVaz\SV\SV\bin\Debug\K4os.Compression.LZ4.Streams.dll
-C:\SousaVaz\SV\SV\bin\Debug\BouncyCastle.Crypto.dll
-C:\SousaVaz\SV\SV\bin\Debug\Ubiety.Dns.Core.dll
-C:\SousaVaz\SV\SV\bin\Debug\System.Memory.dll
-C:\SousaVaz\SV\SV\bin\Debug\System.Buffers.dll
-C:\SousaVaz\SV\SV\bin\Debug\K4os.Compression.LZ4.dll
-C:\SousaVaz\SV\SV\bin\Debug\K4os.Hash.xxHash.dll
-C:\SousaVaz\SV\SV\bin\Debug\MySql.Data.xml
 C:\SousaVaz\SV\SV\obj\Debug\LEV.csproj.AssemblyReference.cache
-C:\SousaVaz\SV\SV\obj\Debug\LEV.csproj.SuggestedBindingRedirects.cache
 C:\SousaVaz\SV\SV\obj\Debug\SV.Acesso.resources
 C:\SousaVaz\SV\SV\obj\Debug\SV.Empresa.resources
 C:\SousaVaz\SV\SV\obj\Debug\SV.Principal.resources
@@ -21,17 +10,59 @@ C:\SousaVaz\SV\SV\obj\Debug\SV.Produto_Consulta.resources
 C:\SousaVaz\SV\SV\obj\Debug\SV.Script.resources
 C:\SousaVaz\SV\SV\obj\Debug\SV.Funcionário.resources
 C:\SousaVaz\SV\SV\obj\Debug\SV.Fornecedor.resources
-C:\SousaVaz\SV\SV\bin\Debug\EV - Erp.exe.config
-C:\SousaVaz\SV\SV\bin\Debug\EV - Erp.exe
-C:\SousaVaz\SV\SV\bin\Debug\EV - Erp.pdb
-C:\SousaVaz\SV\SV\obj\Debug\EV - Erp.exe.config
-C:\SousaVaz\SV\SV\obj\Debug\EV - Erp.exe
-C:\SousaVaz\SV\SV\obj\Debug\EV - Erp.pdb
-C:\SousaVaz\SV\SV\bin\Debug\EV - Erp.exe.manifest
-C:\SousaVaz\SV\SV\bin\Debug\EV - Erp.application
-C:\SousaVaz\SV\SV\obj\Debug\EV - Erp.TrustInfo.xml
-C:\SousaVaz\SV\SV\obj\Debug\EV - Erp.exe.manifest
-C:\SousaVaz\SV\SV\obj\Debug\EV - Erp.application
 C:\SousaVaz\SV\SV\obj\Debug\SV.Usuário.resources
 C:\SousaVaz\SV\SV\obj\Debug\SV.Fabricante.resources
 C:\SousaVaz\SV\SV\obj\Debug\SV.Produto.resources
+C:\SousaVaz\SV\SV\obj\Debug\SV.Cargo.resources
+C:\SousaVaz\SV\SV\obj\Debug\SV.Grupo.resources
+C:\SousaVaz\SV\SV\obj\Debug\SV.Horário.resources
+C:\SousaVaz\SV\SV\bin\Debug\SV - ERP.exe.config
+C:\SousaVaz\SV\SV\bin\Debug\SV - ERP.exe.manifest
+C:\SousaVaz\SV\SV\bin\Debug\SV - ERP.application
+C:\SousaVaz\SV\SV\bin\Debug\SV - ERP.exe
+C:\SousaVaz\SV\SV\bin\Debug\SV - ERP.pdb
+C:\SousaVaz\SV\SV\obj\Debug\SV - ERP.TrustInfo.xml
+C:\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe.manifest
+C:\SousaVaz\SV\SV\obj\Debug\SV - ERP.application
+C:\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe
+C:\SousaVaz\SV\SV\obj\Debug\SV - ERP.pdb
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\LEV.csproj.AssemblyReference.cache
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\LEV.csproj.SuggestedBindingRedirects.cache
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe.config
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Acesso.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Cargo.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Empresa.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Fabricante.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Fornecedor.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Funcionário.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Grupo.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Horário.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Principal.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Produto.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Produto_Consulta.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Properties.Resources.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Script.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV.Usuário.resources
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\LEV.csproj.GenerateResource.cache
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV - ERP.pdb
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\SV - ERP.exe.config
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\SV - ERP.exe.manifest
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\SV - ERP.application
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\SV - ERP.exe
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\SV - ERP.pdb
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\Google.Protobuf.dll
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\ZstdNet.dll
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\System.Memory.dll
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\System.Buffers.dll
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\bin\Debug\MySql.Data.xml
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\LEV.csproj.CoreCompileInputs.cache
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV - ERP.TrustInfo.xml
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe.manifest
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV - ERP.application
+C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\LEV.csproj.CopyComplete

@@ -68,7 +68,7 @@ namespace SV
 
         private void SobreToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("EV-ERP");
+            MessageBox.Show("SV-ERP");
         }
 
         private void FabricanteToolStripMenuItem_Click(object sender, EventArgs e)
@@ -80,6 +80,24 @@ namespace SV
         private void ProdutoToolStripMenuItem3_Click(object sender, EventArgs e)
         {
             Produto frm = new Produto();
+            frm.Show();
+        }
+
+        private void cargosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cargo frm = new Cargo();
+            frm.Show();
+        }
+
+        private void grupoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Grupo frm = new Grupo();
+            frm.Show();
+        }
+
+        private void horárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Horário frm = new Horário();
             frm.Show();
         }
     }

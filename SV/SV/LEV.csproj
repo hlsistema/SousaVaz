@@ -7,7 +7,7 @@
     <ProjectGuid>{8926A1E4-C498-4180-A727-E9A9CFCFC0AE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>SV</RootNamespace>
-    <AssemblyName>EV - Erp</AssemblyName>
+    <AssemblyName>SV - ERP</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -21,18 +21,18 @@
     <UpdateMode>Background</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
-    <UpdatePeriodically>false</UpdatePeriodically>
-    <UpdateRequired>true</UpdateRequired>
-    <MapFileExtensions>true</MapFileExtensions>
+    <UpdatePeriodically>true</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
     <SupportUrl>http://www.hlsistema.blogspot.com</SupportUrl>
     <ErrorReportUrl>http://www.hlsistema.blogspot.com</ErrorReportUrl>
-    <ProductName>EV-ERP</ProductName>
-    <PublisherName>EV-ERP</PublisherName>
+    <ProductName>SV-ERP</ProductName>
+    <PublisherName>Hugo F. Vaz</PublisherName>
     <SuiteName>SV Produto e Serviços</SuiteName>
     <MinimumRequiredVersion>1.0.0.3</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationRevision>36</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -47,10 +47,11 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
+    <WarningLevel>0</WarningLevel>
     <DocumentationFile>
     </DocumentationFile>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -60,14 +61,15 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
   <PropertyGroup>
-    <ManifestCertificateThumbprint>A785AE4D3BC5522AA5157AE595FD6F8A723CE425</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>1B02B33FAE71BCC0D06A74DFFB2EF6587E7DA27C</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>LEV_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>LEV_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -79,18 +81,23 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>PerfCenterCpl.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
+    <StartupObject>SV.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=8.0.28.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -108,8 +115,15 @@
     <Compile Include="Acesso.Designer.cs">
       <DependentUpon>Acesso.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cargo.Designer.cs">
+      <DependentUpon>Cargo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Class_Empresa.cs" />
     <Compile Include="Class_Conexao.cs" />
+    <Compile Include="Class_Fabricante.cs" />
     <Compile Include="Class_Fornecedor.cs" />
     <Compile Include="Class_Funcionario.cs" />
     <Compile Include="Class_Grupo.cs" />
@@ -138,6 +152,18 @@
     </Compile>
     <Compile Include="Funcionário.Designer.cs">
       <DependentUpon>Funcionário.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Grupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Grupo.Designer.cs">
+      <DependentUpon>Grupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Horário.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Horário.Designer.cs">
+      <DependentUpon>Horário.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
@@ -174,6 +200,9 @@
     <EmbeddedResource Include="Acesso.resx">
       <DependentUpon>Acesso.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cargo.resx">
+      <DependentUpon>Cargo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Empresa.resx">
       <DependentUpon>Empresa.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +214,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Funcionário.resx">
       <DependentUpon>Funcionário.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Grupo.resx">
+      <DependentUpon>Grupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Horário.resx">
+      <DependentUpon>Horário.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
@@ -214,6 +249,7 @@
     <None Include="..\.editorconfig">
       <Link>.editorconfig</Link>
     </None>
+    <None Include="LEV_1_TemporaryKey.pfx" />
     <None Include="LEV_TemporaryKey.pfx" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">

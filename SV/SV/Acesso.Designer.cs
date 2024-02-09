@@ -36,6 +36,8 @@ namespace SV
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.Btsairacesso = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -53,29 +55,27 @@ namespace SV
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(13, 51);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 20);
+            this.label2.Size = new System.Drawing.Size(84, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Usuário";
-            this.label2.Click += new System.EventHandler(this.Label2_Click);
+            this.label2.Text = "USUÁRIO";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(21, 95);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 20);
+            this.label3.Size = new System.Drawing.Size(65, 20);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Senha";
-            this.label3.Click += new System.EventHandler(this.Label3_Click);
+            this.label3.Text = "SENHA";
             // 
             // btEntrar
             // 
             this.btEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btEntrar.Location = new System.Drawing.Point(165, 124);
+            this.btEntrar.Location = new System.Drawing.Point(146, 133);
             this.btEntrar.Name = "btEntrar";
-            this.btEntrar.Size = new System.Drawing.Size(62, 33);
+            this.btEntrar.Size = new System.Drawing.Size(81, 33);
             this.btEntrar.TabIndex = 2;
-            this.btEntrar.Text = "&Entrar";
+            this.btEntrar.Text = "&ENTRAR";
             this.btEntrar.UseVisualStyleBackColor = true;
             this.btEntrar.Click += new System.EventHandler(this.BtEntrar_Click);
             // 
@@ -104,21 +104,44 @@ namespace SV
             // Btsairacesso
             // 
             this.Btsairacesso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btsairacesso.Location = new System.Drawing.Point(96, 124);
+            this.Btsairacesso.Location = new System.Drawing.Point(78, 133);
             this.Btsairacesso.Name = "Btsairacesso";
             this.Btsairacesso.Size = new System.Drawing.Size(62, 33);
             this.Btsairacesso.TabIndex = 3;
-            this.Btsairacesso.Text = "&Sair";
+            this.Btsairacesso.Text = "&SAIR";
             this.Btsairacesso.UseVisualStyleBackColor = true;
             this.Btsairacesso.Click += new System.EventHandler(this.Btsairacesso_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(25, 200);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(189, 20);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "TEL.: (21) 98448-7361";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(3, 174);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(231, 20);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "MAIORES INFORMAÇÕES:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // Acesso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
-            this.ClientSize = new System.Drawing.Size(239, 169);
+            this.ClientSize = new System.Drawing.Size(239, 226);
             this.ControlBox = false;
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.Btsairacesso);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtUsuario);
@@ -146,5 +169,7 @@ namespace SV
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button Btsairacesso;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
