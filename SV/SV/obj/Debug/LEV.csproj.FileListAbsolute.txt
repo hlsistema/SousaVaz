@@ -66,3 +66,43 @@ C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV - ERP.TrustInfo.xml
 C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe.manifest
 C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\SV - ERP.application
 C:\Users\HUGO\Downloads\SousaVaz\SV\SV\obj\Debug\LEV.csproj.CopyComplete
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\SV - ERP.exe.config
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\SV - ERP.exe.manifest
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\SV - ERP.application
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\SV - ERP.exe
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\SV - ERP.pdb
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\Google.Protobuf.dll
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\ZstdNet.dll
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\System.Memory.dll
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\System.Buffers.dll
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\bin\Debug\MySql.Data.xml
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\LEV.csproj.AssemblyReference.cache
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\LEV.csproj.SuggestedBindingRedirects.cache
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe.config
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Acesso.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Cargo.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Empresa.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Fabricante.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Fornecedor.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Funcionário.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Grupo.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Horário.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Principal.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Produto.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Produto_Consulta.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Properties.Resources.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Script.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Usuário.resources
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\LEV.csproj.GenerateResource.cache
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\LEV.csproj.CoreCompileInputs.cache
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.TrustInfo.xml
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe.manifest
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.application
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\LEV.csproj.Up2Date
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe
+C:\Users\VALESTER\Source\Repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.pdb
