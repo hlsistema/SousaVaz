@@ -50,13 +50,14 @@ namespace SV
             this.funcionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.valesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transferênciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cancelamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.baixasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.horárioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pedidoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.transferênciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.notaFiscalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lançarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.relatórioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.horárioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.horárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -81,7 +82,6 @@ namespace SV
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.cancelamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -220,33 +220,33 @@ namespace SV
             // cargosToolStripMenuItem
             // 
             this.cargosToolStripMenuItem.Name = "cargosToolStripMenuItem";
-            this.cargosToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.cargosToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.cargosToolStripMenuItem.Text = "Cargos";
             this.cargosToolStripMenuItem.Click += new System.EventHandler(this.cargosToolStripMenuItem_Click);
             // 
             // fToolStripMenuItem
             // 
             this.fToolStripMenuItem.Name = "fToolStripMenuItem";
-            this.fToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.fToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.fToolStripMenuItem.Text = "Faltas";
             // 
             // fériasToolStripMenuItem
             // 
             this.fériasToolStripMenuItem.Name = "fériasToolStripMenuItem";
-            this.fériasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.fériasToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.fériasToolStripMenuItem.Text = "Férias";
             // 
             // funcionáriosToolStripMenuItem
             // 
             this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
-            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.funcionáriosToolStripMenuItem.Text = "Funcionários";
             this.funcionáriosToolStripMenuItem.Click += new System.EventHandler(this.FuncionáriosToolStripMenuItem_Click);
             // 
             // valesToolStripMenuItem
             // 
             this.valesToolStripMenuItem.Name = "valesToolStripMenuItem";
-            this.valesToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.valesToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.valesToolStripMenuItem.Text = "Vales";
             // 
             // transferênciaToolStripMenuItem
@@ -262,22 +262,35 @@ namespace SV
             this.transferênciaToolStripMenuItem.Size = new System.Drawing.Size(51, 25);
             this.transferênciaToolStripMenuItem.Text = "Loja";
             // 
+            // cancelamentoToolStripMenuItem
+            // 
+            this.cancelamentoToolStripMenuItem.Name = "cancelamentoToolStripMenuItem";
+            this.cancelamentoToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.cancelamentoToolStripMenuItem.Text = "Cancelamento";
+            this.cancelamentoToolStripMenuItem.Click += new System.EventHandler(this.cancelamentoToolStripMenuItem_Click);
+            // 
             // baixasToolStripMenuItem
             // 
             this.baixasToolStripMenuItem.Name = "baixasToolStripMenuItem";
-            this.baixasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.baixasToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
             this.baixasToolStripMenuItem.Text = "Baixas";
+            // 
+            // horárioToolStripMenuItem1
+            // 
+            this.horárioToolStripMenuItem1.Name = "horárioToolStripMenuItem1";
+            this.horárioToolStripMenuItem1.Size = new System.Drawing.Size(179, 26);
+            this.horárioToolStripMenuItem1.Text = "Horário";
             // 
             // pedidoToolStripMenuItem1
             // 
             this.pedidoToolStripMenuItem1.Name = "pedidoToolStripMenuItem1";
-            this.pedidoToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
+            this.pedidoToolStripMenuItem1.Size = new System.Drawing.Size(179, 26);
             this.pedidoToolStripMenuItem1.Text = "Pedido";
             // 
             // transferênciasToolStripMenuItem
             // 
             this.transferênciasToolStripMenuItem.Name = "transferênciasToolStripMenuItem";
-            this.transferênciasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.transferênciasToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
             this.transferênciasToolStripMenuItem.Text = "Transferências";
             // 
             // notaFiscalToolStripMenuItem
@@ -286,7 +299,7 @@ namespace SV
             this.lançarToolStripMenuItem1,
             this.relatórioToolStripMenuItem1});
             this.notaFiscalToolStripMenuItem.Name = "notaFiscalToolStripMenuItem";
-            this.notaFiscalToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.notaFiscalToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
             this.notaFiscalToolStripMenuItem.Text = "Nota Fiscal";
             // 
             // lançarToolStripMenuItem1
@@ -300,12 +313,6 @@ namespace SV
             this.relatórioToolStripMenuItem1.Name = "relatórioToolStripMenuItem1";
             this.relatórioToolStripMenuItem1.Size = new System.Drawing.Size(143, 26);
             this.relatórioToolStripMenuItem1.Text = "Relatório";
-            // 
-            // horárioToolStripMenuItem1
-            // 
-            this.horárioToolStripMenuItem1.Name = "horárioToolStripMenuItem1";
-            this.horárioToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
-            this.horárioToolStripMenuItem1.Text = "Horário";
             // 
             // horárioToolStripMenuItem
             // 
@@ -492,13 +499,6 @@ namespace SV
             this.monthCalendar1.Location = new System.Drawing.Point(768, 38);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 2;
-            // 
-            // cancelamentoToolStripMenuItem
-            // 
-            this.cancelamentoToolStripMenuItem.Name = "cancelamentoToolStripMenuItem";
-            this.cancelamentoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.cancelamentoToolStripMenuItem.Text = "Cancelamento";
-            this.cancelamentoToolStripMenuItem.Click += new System.EventHandler(this.cancelamentoToolStripMenuItem_Click);
             // 
             // Principal
             // 
