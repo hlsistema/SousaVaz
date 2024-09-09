@@ -50,15 +50,18 @@ namespace SV
             this.funcionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.valesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transferênciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cancelamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.baixasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cancelamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.horárioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.notaFiscalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pedidoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.transferênciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.notaFiscalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.lançarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.relatórioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.horárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.teToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.baixasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.canceladosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.horáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notaFiscalToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.transferênciasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.produtoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.validadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -82,6 +85,7 @@ namespace SV
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.horárioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -96,8 +100,8 @@ namespace SV
             this.comprasToolStripMenuItem,
             this.dPToolStripMenuItem,
             this.transferênciaToolStripMenuItem,
-            this.horárioToolStripMenuItem,
             this.produtoToolStripMenuItem,
+            this.horárioToolStripMenuItem,
             this.rTToolStripMenuItem,
             this.atualizaçãoToolStripMenuItem,
             this.suporteToolStripMenuItem,
@@ -252,15 +256,22 @@ namespace SV
             // transferênciaToolStripMenuItem
             // 
             this.transferênciaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cancelamentoToolStripMenuItem,
             this.baixasToolStripMenuItem,
+            this.cancelamentoToolStripMenuItem,
             this.horárioToolStripMenuItem1,
+            this.notaFiscalToolStripMenuItem,
             this.pedidoToolStripMenuItem1,
             this.transferênciasToolStripMenuItem,
-            this.notaFiscalToolStripMenuItem});
+            this.teToolStripMenuItem});
             this.transferênciaToolStripMenuItem.Name = "transferênciaToolStripMenuItem";
             this.transferênciaToolStripMenuItem.Size = new System.Drawing.Size(51, 25);
             this.transferênciaToolStripMenuItem.Text = "Loja";
+            // 
+            // baixasToolStripMenuItem
+            // 
+            this.baixasToolStripMenuItem.Name = "baixasToolStripMenuItem";
+            this.baixasToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.baixasToolStripMenuItem.Text = "Baixas";
             // 
             // cancelamentoToolStripMenuItem
             // 
@@ -269,17 +280,18 @@ namespace SV
             this.cancelamentoToolStripMenuItem.Text = "Cancelamento";
             this.cancelamentoToolStripMenuItem.Click += new System.EventHandler(this.cancelamentoToolStripMenuItem_Click);
             // 
-            // baixasToolStripMenuItem
-            // 
-            this.baixasToolStripMenuItem.Name = "baixasToolStripMenuItem";
-            this.baixasToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
-            this.baixasToolStripMenuItem.Text = "Baixas";
-            // 
             // horárioToolStripMenuItem1
             // 
             this.horárioToolStripMenuItem1.Name = "horárioToolStripMenuItem1";
             this.horárioToolStripMenuItem1.Size = new System.Drawing.Size(179, 26);
             this.horárioToolStripMenuItem1.Text = "Horário";
+            this.horárioToolStripMenuItem1.Click += new System.EventHandler(this.horárioToolStripMenuItem1_Click);
+            // 
+            // notaFiscalToolStripMenuItem
+            // 
+            this.notaFiscalToolStripMenuItem.Name = "notaFiscalToolStripMenuItem";
+            this.notaFiscalToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.notaFiscalToolStripMenuItem.Text = "Nota Fiscal";
             // 
             // pedidoToolStripMenuItem1
             // 
@@ -293,33 +305,47 @@ namespace SV
             this.transferênciasToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
             this.transferênciasToolStripMenuItem.Text = "Transferências";
             // 
-            // notaFiscalToolStripMenuItem
+            // teToolStripMenuItem
             // 
-            this.notaFiscalToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lançarToolStripMenuItem1,
-            this.relatórioToolStripMenuItem1});
-            this.notaFiscalToolStripMenuItem.Name = "notaFiscalToolStripMenuItem";
-            this.notaFiscalToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
-            this.notaFiscalToolStripMenuItem.Text = "Nota Fiscal";
+            this.teToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.baixasToolStripMenuItem1,
+            this.canceladosToolStripMenuItem,
+            this.horáriosToolStripMenuItem,
+            this.notaFiscalToolStripMenuItem1,
+            this.transferênciasToolStripMenuItem1});
+            this.teToolStripMenuItem.Name = "teToolStripMenuItem";
+            this.teToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.teToolStripMenuItem.Text = "Relatórios";
             // 
-            // lançarToolStripMenuItem1
+            // baixasToolStripMenuItem1
             // 
-            this.lançarToolStripMenuItem1.Name = "lançarToolStripMenuItem1";
-            this.lançarToolStripMenuItem1.Size = new System.Drawing.Size(143, 26);
-            this.lançarToolStripMenuItem1.Text = "Lançar";
+            this.baixasToolStripMenuItem1.Name = "baixasToolStripMenuItem1";
+            this.baixasToolStripMenuItem1.Size = new System.Drawing.Size(179, 26);
+            this.baixasToolStripMenuItem1.Text = "Baixas";
             // 
-            // relatórioToolStripMenuItem1
+            // canceladosToolStripMenuItem
             // 
-            this.relatórioToolStripMenuItem1.Name = "relatórioToolStripMenuItem1";
-            this.relatórioToolStripMenuItem1.Size = new System.Drawing.Size(143, 26);
-            this.relatórioToolStripMenuItem1.Text = "Relatório";
+            this.canceladosToolStripMenuItem.Name = "canceladosToolStripMenuItem";
+            this.canceladosToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.canceladosToolStripMenuItem.Text = "Cancelados";
             // 
-            // horárioToolStripMenuItem
+            // horáriosToolStripMenuItem
             // 
-            this.horárioToolStripMenuItem.Name = "horárioToolStripMenuItem";
-            this.horárioToolStripMenuItem.Size = new System.Drawing.Size(75, 25);
-            this.horárioToolStripMenuItem.Text = "Horário";
-            this.horárioToolStripMenuItem.Click += new System.EventHandler(this.horárioToolStripMenuItem_Click);
+            this.horáriosToolStripMenuItem.Name = "horáriosToolStripMenuItem";
+            this.horáriosToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.horáriosToolStripMenuItem.Text = "Horários";
+            // 
+            // notaFiscalToolStripMenuItem1
+            // 
+            this.notaFiscalToolStripMenuItem1.Name = "notaFiscalToolStripMenuItem1";
+            this.notaFiscalToolStripMenuItem1.Size = new System.Drawing.Size(179, 26);
+            this.notaFiscalToolStripMenuItem1.Text = "Nota Fiscal";
+            // 
+            // transferênciasToolStripMenuItem1
+            // 
+            this.transferênciasToolStripMenuItem1.Name = "transferênciasToolStripMenuItem1";
+            this.transferênciasToolStripMenuItem1.Size = new System.Drawing.Size(179, 26);
+            this.transferênciasToolStripMenuItem1.Text = "Transferências";
             // 
             // produtoToolStripMenuItem
             // 
@@ -333,14 +359,14 @@ namespace SV
             // consultarToolStripMenuItem
             // 
             this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
-            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
+            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.consultarToolStripMenuItem.Text = "Consultar";
             this.consultarToolStripMenuItem.Click += new System.EventHandler(this.ConsultarToolStripMenuItem_Click);
             // 
             // validadeToolStripMenuItem
             // 
             this.validadeToolStripMenuItem.Name = "validadeToolStripMenuItem";
-            this.validadeToolStripMenuItem.Size = new System.Drawing.Size(147, 26);
+            this.validadeToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.validadeToolStripMenuItem.Text = "Validade";
             // 
             // rTToolStripMenuItem
@@ -500,6 +526,13 @@ namespace SV
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 2;
             // 
+            // horárioToolStripMenuItem
+            // 
+            this.horárioToolStripMenuItem.Name = "horárioToolStripMenuItem";
+            this.horárioToolStripMenuItem.Size = new System.Drawing.Size(75, 25);
+            this.horárioToolStripMenuItem.Text = "Horário";
+            this.horárioToolStripMenuItem.Click += new System.EventHandler(this.horárioToolStripMenuItem_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -563,8 +596,6 @@ namespace SV
         private System.Windows.Forms.ToolStripMenuItem lançarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem relatórioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem notaFiscalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem lançarToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem relatórioToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem suporteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem acessoToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem chatToolStripMenuItem;
@@ -578,11 +609,17 @@ namespace SV
         private System.Windows.Forms.ToolStripMenuItem preçoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem produtoToolStripMenuItem3;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
-        private System.Windows.Forms.ToolStripMenuItem horárioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem horárioToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem listagemToolStripMenuItem;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.ToolStripMenuItem cancelamentoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem teToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem baixasToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem canceladosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem horáriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem notaFiscalToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem transferênciasToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem horárioToolStripMenuItem;
     }
 }
 

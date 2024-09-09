@@ -95,15 +95,22 @@ namespace SV
             frm.Show();
         }
 
-        private void horárioToolStripMenuItem_Click(object sender, EventArgs e)
+
+        private void cancelamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cancelamento frm = new Cancelamento();
+            frm.Show();
+        }
+
+        private void horárioToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             Horário frm = new Horário();
             frm.Show();
         }
 
-        private void cancelamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void horárioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Cancelamento frm = new Cancelamento();
+            Horário frm = new Horário();
             frm.Show();
         }
     }
