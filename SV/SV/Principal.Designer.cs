@@ -81,6 +81,7 @@ namespace SV
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.cancelamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -219,43 +220,44 @@ namespace SV
             // cargosToolStripMenuItem
             // 
             this.cargosToolStripMenuItem.Name = "cargosToolStripMenuItem";
-            this.cargosToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.cargosToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.cargosToolStripMenuItem.Text = "Cargos";
             this.cargosToolStripMenuItem.Click += new System.EventHandler(this.cargosToolStripMenuItem_Click);
             // 
             // fToolStripMenuItem
             // 
             this.fToolStripMenuItem.Name = "fToolStripMenuItem";
-            this.fToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.fToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.fToolStripMenuItem.Text = "Faltas";
             // 
             // fériasToolStripMenuItem
             // 
             this.fériasToolStripMenuItem.Name = "fériasToolStripMenuItem";
-            this.fériasToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.fériasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.fériasToolStripMenuItem.Text = "Férias";
             // 
             // funcionáriosToolStripMenuItem
             // 
             this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
-            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.funcionáriosToolStripMenuItem.Text = "Funcionários";
             this.funcionáriosToolStripMenuItem.Click += new System.EventHandler(this.FuncionáriosToolStripMenuItem_Click);
             // 
             // valesToolStripMenuItem
             // 
             this.valesToolStripMenuItem.Name = "valesToolStripMenuItem";
-            this.valesToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
+            this.valesToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.valesToolStripMenuItem.Text = "Vales";
             // 
             // transferênciaToolStripMenuItem
             // 
             this.transferênciaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cancelamentoToolStripMenuItem,
             this.baixasToolStripMenuItem,
+            this.horárioToolStripMenuItem1,
             this.pedidoToolStripMenuItem1,
             this.transferênciasToolStripMenuItem,
-            this.notaFiscalToolStripMenuItem,
-            this.horárioToolStripMenuItem1});
+            this.notaFiscalToolStripMenuItem});
             this.transferênciaToolStripMenuItem.Name = "transferênciaToolStripMenuItem";
             this.transferênciaToolStripMenuItem.Size = new System.Drawing.Size(51, 25);
             this.transferênciaToolStripMenuItem.Text = "Loja";
@@ -263,19 +265,19 @@ namespace SV
             // baixasToolStripMenuItem
             // 
             this.baixasToolStripMenuItem.Name = "baixasToolStripMenuItem";
-            this.baixasToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.baixasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.baixasToolStripMenuItem.Text = "Baixas";
             // 
             // pedidoToolStripMenuItem1
             // 
             this.pedidoToolStripMenuItem1.Name = "pedidoToolStripMenuItem1";
-            this.pedidoToolStripMenuItem1.Size = new System.Drawing.Size(179, 26);
+            this.pedidoToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
             this.pedidoToolStripMenuItem1.Text = "Pedido";
             // 
             // transferênciasToolStripMenuItem
             // 
             this.transferênciasToolStripMenuItem.Name = "transferênciasToolStripMenuItem";
-            this.transferênciasToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.transferênciasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.transferênciasToolStripMenuItem.Text = "Transferências";
             // 
             // notaFiscalToolStripMenuItem
@@ -284,7 +286,7 @@ namespace SV
             this.lançarToolStripMenuItem1,
             this.relatórioToolStripMenuItem1});
             this.notaFiscalToolStripMenuItem.Name = "notaFiscalToolStripMenuItem";
-            this.notaFiscalToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
+            this.notaFiscalToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.notaFiscalToolStripMenuItem.Text = "Nota Fiscal";
             // 
             // lançarToolStripMenuItem1
@@ -302,7 +304,7 @@ namespace SV
             // horárioToolStripMenuItem1
             // 
             this.horárioToolStripMenuItem1.Name = "horárioToolStripMenuItem1";
-            this.horárioToolStripMenuItem1.Size = new System.Drawing.Size(179, 26);
+            this.horárioToolStripMenuItem1.Size = new System.Drawing.Size(180, 26);
             this.horárioToolStripMenuItem1.Text = "Horário";
             // 
             // horárioToolStripMenuItem
@@ -491,6 +493,13 @@ namespace SV
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 2;
             // 
+            // cancelamentoToolStripMenuItem
+            // 
+            this.cancelamentoToolStripMenuItem.Name = "cancelamentoToolStripMenuItem";
+            this.cancelamentoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
+            this.cancelamentoToolStripMenuItem.Text = "Cancelamento";
+            this.cancelamentoToolStripMenuItem.Click += new System.EventHandler(this.cancelamentoToolStripMenuItem_Click);
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -573,6 +582,7 @@ namespace SV
         private System.Windows.Forms.ToolStripMenuItem horárioToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem listagemToolStripMenuItem;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.ToolStripMenuItem cancelamentoToolStripMenuItem;
     }
 }
 

@@ -115,6 +115,12 @@
     <Compile Include="Acesso.Designer.cs">
       <DependentUpon>Acesso.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cancelamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cancelamento.Designer.cs">
+      <DependentUpon>Cancelamento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cargo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -200,6 +206,9 @@
     </Compile>
     <EmbeddedResource Include="Acesso.resx">
       <DependentUpon>Acesso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cancelamento.resx">
+      <DependentUpon>Cancelamento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cargo.resx">
       <DependentUpon>Cargo.cs</DependentUpon>

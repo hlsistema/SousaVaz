@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("SV Produtos e Serviços")]
 [assembly: AssemblyProduct("SV - Erp")]
-[assembly: AssemblyCopyright("Copyright Hugo Ferreira Vaz ©  2023")]
+[assembly: AssemblyCopyright("Copyright Hugo Ferreira Vaz ©  2024")]
 [assembly: AssemblyTrademark("SV Produtos")]
 [assembly: AssemblyCulture("")]
 

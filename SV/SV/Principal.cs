@@ -100,5 +100,11 @@ namespace SV
             Horário frm = new Horário();
             frm.Show();
         }
+
+        private void cancelamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Cancelamento frm = new Cancelamento();
+            frm.Show();
+        }
     }
 }
