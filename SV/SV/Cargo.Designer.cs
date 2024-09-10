@@ -33,7 +33,7 @@
             this.cONSULTARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aLTERARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Txb_Cargo = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -56,6 +56,7 @@
             this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
             this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.cadastrarToolStripMenuItem.Text = "&CADASTRAR";
+            this.cadastrarToolStripMenuItem.Click += new System.EventHandler(this.cadastrarToolStripMenuItem_Click);
             // 
             // cONSULTARToolStripMenuItem
             // 
@@ -78,14 +79,14 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Nome";
             // 
-            // textBox1
+            // Txb_Cargo
             // 
-            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox1.Location = new System.Drawing.Point(67, 39);
-            this.textBox1.MaxLength = 45;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(205, 26);
-            this.textBox1.TabIndex = 0;
+            this.Txb_Cargo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.Txb_Cargo.Location = new System.Drawing.Point(67, 39);
+            this.Txb_Cargo.MaxLength = 45;
+            this.Txb_Cargo.Name = "Txb_Cargo";
+            this.Txb_Cargo.Size = new System.Drawing.Size(205, 26);
+            this.Txb_Cargo.TabIndex = 0;
             // 
             // dataGridView1
             // 
@@ -102,7 +103,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(281, 192);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Txb_Cargo);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
@@ -127,7 +128,7 @@
         private System.Windows.Forms.ToolStripMenuItem cONSULTARToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aLTERARToolStripMenuItem;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Txb_Cargo;
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
