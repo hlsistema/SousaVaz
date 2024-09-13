@@ -16,5 +16,10 @@ namespace SV
         public object Parameters { get; internal set; }
 
         internal object ExecuteReader() => throw new NotImplementedException();
+
+        public static explicit operator MySql.Data.MySqlClient.MySqlDataReader(MySqlCommand v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

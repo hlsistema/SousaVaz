@@ -1,5 +1,10 @@
 ﻿using System;
-
+using System.Data;
+using System.Data.Common;
+using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
+using static SV.MySqlConnection;
+using static SV.MySqlConnection.TipoConexao;
 
 namespace SV
 {
@@ -14,7 +19,7 @@ namespace SV
         public string Senha = "Hl47076961";
         public string Database = "grupoamaral";
 
-        
+
 
         public MySqlConnection conn;
 
@@ -68,8 +73,10 @@ namespace SV
             }
         }
 
+        public MySqlConnection GetConn() => conn;
+
         // Abre conexao com o Banco de Dados
-        public Boolean OpenConexao()
+        public Boolean OpenConexao(MySqlConnection conn)
         {
             Boolean _return = true;
             try
@@ -93,26 +100,37 @@ namespace SV
         }
     }
 
-    public class MySqlConnection
+    public class MySqlConnection : IDisposable
     {
-        public MySqlConnection(string connectionStrings)
+        private readonly string _connectionString;
+        private IDbConnection _conexao;
+
+        public MySqlConnection(string connectionString)
         {
-            ConnectionStrings = connectionStrings;
+            _connectionString = connectionString;
         }
 
-        public string ConnectionStrings { get; }
+        public string ConnectionString => _connectionString;
 
-        internal void Close() => throw new NotImplementedException();
-        internal void Dispose() => throw new NotImplementedException();
-        internal object Open() => throw new NotImplementedException();
+        public void Open()
+        {
+            _conexao = new SqlConnection(_connectionString);
+            _conexao.Open();
+        }
+
+        public void Close()
+        {
+            _conexao?.Close();
+        }
+
+        public void Dispose()
+        {
+            _conexao?.Dispose();
+        }
+
+        public class TipoConexao
+        {
+            public enum Conexao { WebConfig = 1, Classe = 2 };
+        }
     }
-
-    /// <summary>
-    /// Definição de tipos de Conexão 
-    /// </summary>
-    public class TipoConexao
-    {
-        public enum Conexao { WebConfig = 1, Classe = 2 };
-    }
-
 }
