@@ -171,6 +171,7 @@
     <Compile Include="Horário.Designer.cs">
       <DependentUpon>Horário.cs</DependentUpon>
     </Compile>
+    <Compile Include="MySqlCommand.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>

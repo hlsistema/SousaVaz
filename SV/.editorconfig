@@ -60,6 +60,9 @@ csharp_style_expression_bodied_local_functions = false:silent
 csharp_space_around_binary_operators = before_and_after
 csharp_indent_labels = one_less_than_current
 
+# IDE0008: Usar o tipo explícito
+csharp_style_var_when_type_is_apparent = true
+
 [*.vb]
 #### Estilos de nomenclatura ####
 

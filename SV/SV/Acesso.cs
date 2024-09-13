@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Data;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
@@ -30,8 +29,8 @@ namespace SV
                     conexao.Open();
                     MySqlCommand verifica = new MySqlCommand(query, conexao);
 
-                    verifica.Parameters.AddWithValue("@LOGIN", txtUsuario.Text);
-                    verifica.Parameters.AddWithValue("@SENHA", txtSenha.Text);
+                    object value = verifica.Parameters.AddWithValue("@LOGIN", txtUsuario.Text);
+                    object value1 = verifica.Parameters.AddWithValue("@SENHA", txtSenha.Text);
                     bool resultado = verifica.ExecuteReader().HasRows;
 
 

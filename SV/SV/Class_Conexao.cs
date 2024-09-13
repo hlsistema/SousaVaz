@@ -1,5 +1,5 @@
 ﻿using System;
-using MySql.Data.MySqlClient;
+
 
 namespace SV
 {
@@ -74,7 +74,7 @@ namespace SV
             Boolean _return = true;
             try
             {
-                conn.Open();
+                object value = conn.Open();
             }
             catch (Exception erro)
             {
@@ -91,6 +91,20 @@ namespace SV
             conn.Close();
             conn.Dispose();
         }
+    }
+
+    public class MySqlConnection
+    {
+        public MySqlConnection(string connectionStrings)
+        {
+            ConnectionStrings = connectionStrings;
+        }
+
+        public string ConnectionStrings { get; }
+
+        internal void Close() => throw new NotImplementedException();
+        internal void Dispose() => throw new NotImplementedException();
+        internal object Open() => throw new NotImplementedException();
     }
 
     /// <summary>
