@@ -10,14 +10,14 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("SV Produtos e Serviços")]
 [assembly: AssemblyProduct("SV - Erp")]
-[assembly: AssemblyCopyright("Copyright Hugo Ferreira Vaz ©  2024")]
+[assembly: AssemblyCopyright("Copyright Hugo F. Vaz ©  2024")]
 [assembly: AssemblyTrademark("SV Produtos")]
 [assembly: AssemblyCulture("")]
 
 // Definir ComVisible como false torna os tipos neste assembly invisíveis
 // para componentes COM. Caso precise acessar um tipo neste assembly de
 // COM, defina o atributo ComVisible como true nesse tipo.
-[assembly: ComVisible(true)]
+[assembly: ComVisible(false)]
 
 // O GUID a seguir será destinado à ID de typelib se este projeto for exposto para COM
 [assembly: Guid("8926a1e4-c498-4180-a727-e9a9cfcfc0ae")]
