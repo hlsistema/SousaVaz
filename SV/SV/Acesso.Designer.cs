@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace SV
 {
     partial class Acesso
@@ -110,7 +112,7 @@ namespace SV
             this.Btsairacesso.TabIndex = 3;
             this.Btsairacesso.Text = "&SAIR";
             this.Btsairacesso.UseVisualStyleBackColor = true;
-            this.Btsairacesso.Click += new System.EventHandler(this.Btsairacesso_Click);
+            this.Btsairacesso.Click += new System.EventHandler(this.Btsairacesso_Click_1);
             // 
             // label4
             // 
@@ -131,7 +133,6 @@ namespace SV
             this.label5.Size = new System.Drawing.Size(231, 20);
             this.label5.TabIndex = 5;
             this.label5.Text = "MAIORES INFORMAÇÕES:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // Acesso
             // 
@@ -159,6 +160,8 @@ namespace SV
             this.PerformLayout();
 
         }
+
+
 
         #endregion
 

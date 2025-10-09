@@ -9,15 +9,15 @@ namespace SV
         {
             InitializeComponent();
         }
-
+                
         private void FinalizarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void Principal_Load(object sender, EventArgs e)
+        private void Princ_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void LojasToolStripMenuItem_Click(object sender, EventArgs e)
@@ -26,7 +26,7 @@ namespace SV
             frm.Show();
         }
 
-        private void Principal_FormClosed(object sender, FormClosedEventArgs e)
+        private void Princ_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }

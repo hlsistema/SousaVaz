@@ -81,7 +81,7 @@ namespace SV
             Boolean _return = true;
             try
             {
-                object value = conn.Open();
+                conn.Open(); // Apenas chame o método, pois ele é void
             }
             catch (Exception erro)
             {

@@ -34,12 +34,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A05B59A79D31730EF5CE439F3B5BA816"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_D9E59618AA4A4B7BB2F9E9458099B372"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -47,6 +41,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_6E28C43877F46278F409566047082320"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_A05B59A79D31730EF5CE439F3B5BA816"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -67,6 +67,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -83,6 +99,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -241,15 +265,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SV - ERP"
-        "ProductCode" = "8:{FF554751-3790-49C5-9C42-7212A6D738EF}"
-        "PackageCode" = "8:{2C480A8B-D291-470B-9C88-473FA1BA60A8}"
+        "ProductCode" = "8:{FFF33429-0F68-4BCA-9C14-CF90D63FB400}"
+        "PackageCode" = "8:{4FA9AACD-8425-44BF-8446-3A12F0F5A044}"
         "UpgradeCode" = "8:{F7930139-D111-47E5-97FA-0E8A9AA8FCA4}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.9"
+        "ProductVersion" = "8:1.0.10"
         "Manufacturer" = "8:SV"
         "ARPHELPTELEPHONE" = "8:(21) 98448-7361"
         "ARPHELPLINK" = "8:"
@@ -791,7 +815,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D9E59618AA4A4B7BB2F9E9458099B372"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\SV\\obj\\Debug\\SV - ERP.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3E6892B26F064E3E9055C77DB54D7280"

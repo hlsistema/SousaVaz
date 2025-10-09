@@ -31,7 +31,7 @@
     <MinimumRequiredVersion>1.0.0.3</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>39</ApplicationRevision>
+    <ApplicationRevision>44</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -171,7 +171,6 @@
     <Compile Include="Horário.Designer.cs">
       <DependentUpon>Horário.cs</DependentUpon>
     </Compile>
-    <Compile Include="MySqlCommand.cs" />
     <Compile Include="Principal.cs">
       <SubType>Form</SubType>
     </Compile>

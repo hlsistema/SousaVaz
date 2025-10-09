@@ -120,7 +120,6 @@ C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Fornecedor.reso
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Funcionário.resources
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Grupo.resources
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Horário.resources
-C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Principal.resources
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Produto.resources
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Produto_Consulta.resources
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Properties.Resources.resources
@@ -135,3 +134,5 @@ C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\LEV.csproj.Up2Date
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.pdb
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Cancelamento.resources
+C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV.Principal.resources
+C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe.config
