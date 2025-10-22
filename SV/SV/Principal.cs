@@ -113,5 +113,11 @@ namespace SV
             Horário frm = new Horário();
             frm.Show();
         }
+
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Produto frm = new Produto();
+            frm.Show();
+        }
     }
 }

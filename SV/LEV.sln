@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{71A2226B-815F-4456-BDA0-7951EF020311}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,9 +22,10 @@ Global
 		{8926A1E4-C498-4180-A727-E9A9CFCFC0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8926A1E4-C498-4180-A727-E9A9CFCFC0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8926A1E4-C498-4180-A727-E9A9CFCFC0AE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{71A2226B-815F-4456-BDA0-7951EF020311}.Debug|Any CPU.ActiveCfg = Debug
-		{71A2226B-815F-4456-BDA0-7951EF020311}.Release|Any CPU.ActiveCfg = Release
-		{71A2226B-815F-4456-BDA0-7951EF020311}.Release|Any CPU.Build.0 = Release
+		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Debug|Any CPU.ActiveCfg = Debug
+		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Debug|Any CPU.Build.0 = Debug
+		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Release|Any CPU.ActiveCfg = Release
+		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
