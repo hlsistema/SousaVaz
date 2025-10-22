@@ -31,7 +31,7 @@
     <MinimumRequiredVersion>1.0.0.3</MinimumRequiredVersion>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>44</ApplicationRevision>
+    <ApplicationRevision>50</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -127,6 +127,7 @@
       <DependentUpon>Cargo.cs</DependentUpon>
     </Compile>
     <Compile Include="Class_Cargo.cs" />
+    <Compile Include="Class_Controle.cs" />
     <Compile Include="Class_Empresa.cs" />
     <Compile Include="Class_Conexao.cs" />
     <Compile Include="Class_Fabricante.cs" />
