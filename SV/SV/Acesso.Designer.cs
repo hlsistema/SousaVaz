@@ -58,7 +58,7 @@ namespace SV
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(127, 63);
+            this.label2.Location = new System.Drawing.Point(127, 59);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 20);
             this.label2.TabIndex = 1;
@@ -77,8 +77,9 @@ namespace SV
             // btEntrar
             // 
             this.btEntrar.BackColor = System.Drawing.Color.Transparent;
+            this.btEntrar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btEntrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btEntrar.Location = new System.Drawing.Point(166, 208);
+            this.btEntrar.Location = new System.Drawing.Point(240, 208);
             this.btEntrar.Name = "btEntrar";
             this.btEntrar.Size = new System.Drawing.Size(81, 33);
             this.btEntrar.TabIndex = 2;
@@ -89,7 +90,7 @@ namespace SV
             // txtUsuario
             // 
             this.txtUsuario.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtUsuario.Location = new System.Drawing.Point(210, 60);
+            this.txtUsuario.Location = new System.Drawing.Point(210, 56);
             this.txtUsuario.MaxLength = 20;
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(131, 26);
@@ -111,8 +112,9 @@ namespace SV
             // Btsairacesso
             // 
             this.Btsairacesso.BackColor = System.Drawing.Color.Transparent;
+            this.Btsairacesso.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.Btsairacesso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btsairacesso.Location = new System.Drawing.Point(98, 208);
+            this.Btsairacesso.Location = new System.Drawing.Point(26, 208);
             this.Btsairacesso.Name = "Btsairacesso";
             this.Btsairacesso.Size = new System.Drawing.Size(62, 33);
             this.Btsairacesso.TabIndex = 3;
@@ -125,7 +127,7 @@ namespace SV
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(74, 270);
+            this.label4.Location = new System.Drawing.Point(88, 270);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(189, 20);
             this.label4.TabIndex = 4;
@@ -136,7 +138,7 @@ namespace SV
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(52, 244);
+            this.label5.Location = new System.Drawing.Point(66, 244);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(231, 20);
             this.label5.TabIndex = 5;

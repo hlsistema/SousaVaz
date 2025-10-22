@@ -5,11 +5,18 @@ namespace SV
 {
     public partial class Principal : Form
     {
+        private string usu_Login;
+
         public Principal()
         {
             InitializeComponent();
         }
-                
+
+        public Principal(string usu_Login)
+        {
+            this.usu_Login = usu_Login;
+        }
+
         private void FinalizarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();

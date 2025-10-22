@@ -50,12 +50,12 @@ namespace SV
                         {
                             MessageBox.Show("Login realizado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                            // Abrir tela principal
                             this.Hide();
-                            Principal frm = new Principal(); // substitua pelo seu form principal
-                            DialogResult dialogResult = frm.ShowDialog();
+                            Principal frm = new Principal(Usu_Login); // Passa o nome do usuário para o formulário principal
+                            frm.ShowDialog();
                             this.Close();
                         }
+                        // Abrir tela principal
                         else
                         {
                             MessageBox.Show("Usuário ou senha inválidos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
