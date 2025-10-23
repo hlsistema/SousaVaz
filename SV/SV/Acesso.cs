@@ -51,7 +51,7 @@ namespace SV
                             MessageBox.Show("Login realizado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                             this.Hide();
-                            Principal frm = new Principal(Usu_Login); // Passa o nome do usuário para o formulário principal
+                            Principal frm = new Principal();
                             frm.ShowDialog();
                             this.Close();
                         }

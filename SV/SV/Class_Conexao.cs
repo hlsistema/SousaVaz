@@ -2,135 +2,80 @@
 using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
-using MySql.Data.MySqlClient;
-using static SV.MySqlConnection;
-using static SV.MySqlConnection.TipoConexao;
+using System.Windows.Forms;
 
 namespace SV
 {
     class Class_Conexao
-    {
-        public string mErro = "";
+    {   
+        // Conexão com o SQL Server
+        private string connectionString = "Server=VAZ\\HUGO,1433;Database=EV; Trusted_Connection=true; ";
+        private readonly TextBox txtUsuario;
+        private readonly TextBox txtSenha;
 
-
-        // Variaveis de configuração de acesso ao banco de dados
-        public string Server = "grupoamaral.mysql.dbaas.com.br";
-        public string Usuario = "grupoamaral";
-        public string Senha = "Hl47076961";
-        public string Database = "grupoamaral";
-
-
-
-        public MySqlConnection conn;
-
-        public Class_Conexao(TipoConexao.Conexao TConexao)
+        // Construtor para receber os TextBoxes de usuário e senha
+        public Class_Conexao(TextBox usuario, TextBox senha)
         {
-            GetConexao(TConexao);
+            txtUsuario = usuario;
+            txtSenha = senha;
         }
 
-        internal static void Open()
+        // Botão SAIR
+        private void Btsairacesso_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            Application.Exit();
         }
 
-        public Class_Conexao()
+        // Botão ENTRAR
+        private void BtEntrar_Click(object sender, EventArgs e)
         {
-            GetConexao(TipoConexao.Conexao.Classe);
-        }
+            string Usu_Login = txtUsuario.Text.Trim();
+            string Usu_Senha = txtSenha.Text.Trim();
 
-        internal static void Close()
-        {
-            throw new NotImplementedException();
-        }
-
-        // Verifica se existe erro
-        public Boolean ExisteErro()
-        {
-            if (mErro.Length > 0)
+            if (string.IsNullOrEmpty(Usu_Login) || string.IsNullOrEmpty(Usu_Senha))
             {
-                return true;
+                MessageBox.Show("Preencha usuário e senha!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            return false;
-        }
 
-        // Faz a Conexao com o Banco de Dados
-        private void GetConexao(TipoConexao.Conexao TConexao)
-        {
             try
             {
-                string connectionStrings = "";
-                if (TConexao == TipoConexao.Conexao.Classe)
+                using (SqlConnection conexao = new SqlConnection(connectionString))
                 {
-                    connectionStrings = string.Format("server={0}; usuario={1};senha={2}; database={3};Connect Timeout=28800;Command Timeout=2880", this.Server, this.Database, this.Usuario, this.Senha);
+                    conexao.Open();
+
+                    string sql = "SELECT COUNT(*) FROM Usuario WHERE Usu_Login = @usuario AND Usu_Senha = @senha";
+                    using (SqlCommand cmd = new SqlCommand(sql, conexao))
+                    {
+                        cmd.Parameters.AddWithValue("@usuario", Usu_Login);
+                        cmd.Parameters.AddWithValue("@senha", Usu_Senha);
+
+                        int count = (int)cmd.ExecuteScalar();
+
+                        if (count > 0)
+                        {
+                            MessageBox.Show("Login realizado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            this.Hide();
+                            Principal frm = new Principal();
+                            frm.ShowDialog();
+                            this.Close();
+                        }
+                        // Abrir tela principal
+                        else
+                        {
+                            MessageBox.Show("Usuário ou senha inválidos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
                 }
-
-                this.conn = new MySqlConnection(connectionStrings);
             }
-            catch (Exception erro)
+            catch (Exception ex)
             {
-                this.mErro = erro.Message;
-                this.conn = null;
+                MessageBox.Show("Erro ao conectar: " + ex.Message, "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        public MySqlConnection GetConn() => conn;
-
-        // Abre conexao com o Banco de Dados
-        public Boolean OpenConexao(MySqlConnection conn)
-        {
-            Boolean _return = true;
-            try
-            {
-                conn.Open(); // Apenas chame o método, pois ele é void
-            }
-            catch (Exception erro)
-            {
-                this.mErro = erro.Message;
-                _return = false;
-            }
-
-            return _return;
-        }
-
-        // Fecha conexao com o Banco de Dados
-        public void CloseConexao()
-        {
-            conn.Close();
-            conn.Dispose();
-        }
-    }
-
-    public class MySqlConnection : IDisposable
-    {
-        private readonly string _connectionString;
-        private IDbConnection _conexao;
-
-        public MySqlConnection(string connectionString)
-        {
-            _connectionString = connectionString;
-        }
-
-        public string ConnectionString => _connectionString;
-
-        public void Open()
-        {
-            _conexao = new SqlConnection(_connectionString);
-            _conexao.Open();
-        }
-
-        public void Close()
-        {
-            _conexao?.Close();
-        }
-
-        public void Dispose()
-        {
-            _conexao?.Dispose();
-        }
-
-        public class TipoConexao
-        {
-            public enum Conexao { WebConfig = 1, Classe = 2 };
-        }
+        private void Close() => throw new NotImplementedException();
+        private void Hide() => throw new NotImplementedException();
     }
 }
