@@ -35,13 +35,13 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.GBLojas = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cADASTRARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cONSULTARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aLTERARToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.GbAcesso = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.GBLojas.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -55,8 +55,10 @@
             this.textBox4.Location = new System.Drawing.Point(99, 97);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
+            this.textBox4.PasswordChar = '$';
             this.textBox4.Size = new System.Drawing.Size(141, 22);
             this.textBox4.TabIndex = 2;
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label5
             // 
@@ -116,6 +118,14 @@
             this.GBLojas.TabStop = false;
             this.GBLojas.Text = "EMPRESAS";
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(6, 21);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(317, 24);
+            this.comboBox1.TabIndex = 0;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -165,14 +175,6 @@
             this.GbAcesso.TabIndex = 3;
             this.GbAcesso.TabStop = false;
             this.GbAcesso.Text = "ACESSO";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(6, 21);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(317, 24);
-            this.comboBox1.TabIndex = 0;
             // 
             // listBox1
             // 
