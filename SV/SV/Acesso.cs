@@ -12,7 +12,10 @@ namespace SV
         }
 
         // Conexão com o SQL Server
-        private string connectionString = "Server=VAZ\\HUGO,1433;Database=EV; Trusted_Connection=true; ";
+        // private string connectionString = "Server=VAZ\\HUGO,1433;Database=EV; Trusted_Connection=true; ";
+
+        private string connectionString = "Server=HUGO\\HUGO,1433;Database=EV;User = sa; Password=Grupo_01;"
+;
 
         // Botão SAIR
         private void Btsairacesso_Click(object sender, EventArgs e)

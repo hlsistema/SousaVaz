@@ -7,9 +7,9 @@ using System.Windows.Forms;
 namespace SV
 {
     class Class_Conexao
-    {   
+    {
         // Conexão com o SQL Server
-        private string connectionString = "Server=VAZ\\HUGO,1433;Database=EV; Trusted_Connection=true; ";
+        private string connectionString = "Server=26.10.90.36,1433;Database=EV; Trusted_Connection=true; ";
         private readonly TextBox txtUsuario;
         private readonly TextBox txtSenha;
 

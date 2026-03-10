@@ -24,7 +24,7 @@ namespace SV
 
         private void Princ_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void LojasToolStripMenuItem_Click(object sender, EventArgs e)

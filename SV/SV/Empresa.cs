@@ -13,7 +13,7 @@ namespace SV
         }
 
         private void cADATRARToolStripMenuItem_Click(object sender, System.EventArgs e)
-        { 
+        {
 
         }
     }
