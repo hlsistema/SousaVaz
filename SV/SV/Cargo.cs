@@ -19,7 +19,7 @@ namespace SV
 
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Class_Cargo insF = new Class_Cargo();
+            
         }
     }
 }
