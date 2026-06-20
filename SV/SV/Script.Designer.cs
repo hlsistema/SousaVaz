@@ -83,6 +83,7 @@
             this.Bt_Limpar_Script.TabIndex = 4;
             this.Bt_Limpar_Script.Text = "&Limpar";
             this.Bt_Limpar_Script.UseVisualStyleBackColor = true;
+            this.Bt_Limpar_Script.Click += new System.EventHandler(this.Bt_Limpar_Script_Click);
             // 
             // Bt_Sair_Script
             // 

@@ -26,5 +26,3 @@ C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe.manif
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.application
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.exe
 C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\SV - ERP.pdb
-C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\bin\Debug\System.dll
-C:\Users\HUGO\source\repos\hlsistema\SousaVaz\SV\SV\obj\Debug\LEV.csproj.Up2Date

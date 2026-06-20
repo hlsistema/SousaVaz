@@ -13,5 +13,10 @@ namespace SV
         {
             Close();
         }
+
+        private void Bt_Limpar_Script_Click(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }
