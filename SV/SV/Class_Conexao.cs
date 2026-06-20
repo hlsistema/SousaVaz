@@ -9,7 +9,7 @@ namespace SV
     class Class_Conexao
     {
         // Conexão com o SQL Server
-        private string connectionString = "Server=26.10.90.36,1433;Database=EV; Trusted_Connection=true; ";
+        private string connectionString = "Server=HUGO\\HUGO,1433;Database=EV;User = sa; Password=Grupo_01;";
         private readonly TextBox txtUsuario;
         private readonly TextBox txtSenha;
 
@@ -29,10 +29,10 @@ namespace SV
         // Botão ENTRAR
         private void BtEntrar_Click(object sender, EventArgs e)
         {
-            string Usu_Login = txtUsuario.Text.Trim();
-            string Usu_Senha = txtSenha.Text.Trim();
+            string Usuario = txtUsuario.Text.Trim();
+            string Senha = txtSenha.Text.Trim();
 
-            if (string.IsNullOrEmpty(Usu_Login) || string.IsNullOrEmpty(Usu_Senha))
+            if (string.IsNullOrEmpty(Usuario) || string.IsNullOrEmpty(Senha))
             {
                 MessageBox.Show("Preencha usuário e senha!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
@@ -44,11 +44,11 @@ namespace SV
                 {
                     conexao.Open();
 
-                    string sql = "SELECT COUNT(*) FROM Usuario WHERE Usu_Login = @usuario AND Usu_Senha = @senha";
+                    string sql = "SELECT COUNT(*) FROM Usuario WHERE Usuario = @usuario AND Senha = @senha";
                     using (SqlCommand cmd = new SqlCommand(sql, conexao))
                     {
-                        cmd.Parameters.AddWithValue("@usuario", Usu_Login);
-                        cmd.Parameters.AddWithValue("@senha", Usu_Senha);
+                        cmd.Parameters.AddWithValue("@usuario", Usuario);
+                        cmd.Parameters.AddWithValue("@senha", Senha);
 
                         int count = (int)cmd.ExecuteScalar();
 

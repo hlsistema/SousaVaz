@@ -12,14 +12,8 @@ namespace SV
         }
 
         // Conexão com o SQL Server
-        // private string connectionString = "Server=VAZ\\HUGO,1433;Database=EV; Trusted_Connection=true; ";
+        private string connectionString = "Server=HUGO\\HUGO,1433;Database=EV;User = sa; Password=Grupo_01;";
 
-<<<<<<< HEAD
-        private string connectionString = "Server=HUGO\\HUGO,1433;Database=EV;User = sa; Password=Grupo_01;"
-;
-=======
-        private string connectionString = "Server=SERVER1,1433;Database=P2; Trusted_Connection=true; ";
->>>>>>> 98e7ed3702d9599e9298605a5612a1efbe5d6dd0
 
         // Botão SAIR
         private void Btsairacesso_Click(object sender, EventArgs e)
@@ -45,7 +39,7 @@ namespace SV
                 {
                     conexao.Open();
 
-                    string sql = "SELECT COUNT(*) FROM Usuario WHERE Usu_Login = @usuario AND Usu_Senha = @senha";
+                    string sql = "SELECT COUNT(*) FROM Usuario WHERE Usuario = @usuario AND Senha = @senha";
                     using (SqlCommand cmd = new SqlCommand(sql, conexao))
                     {
                         cmd.Parameters.AddWithValue("@usuario", Usu_Login);
