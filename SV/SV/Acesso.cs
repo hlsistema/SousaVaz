@@ -30,6 +30,7 @@ namespace SV
             if (string.IsNullOrEmpty(Usu_Login) || string.IsNullOrEmpty(Usu_Senha))
             {
                 MessageBox.Show("Preencha usuário e senha!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtUsuario.Focus();
                 return;
             }
 
@@ -60,6 +61,9 @@ namespace SV
                         else
                         {
                             MessageBox.Show("Usuário ou senha inválidos.", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            txtUsuario.Text = "";
+                            txtSenha.Text = "";
+                            txtUsuario.Focus();
                         }
                     }
                 }
