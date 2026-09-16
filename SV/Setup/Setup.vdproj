@@ -15,20 +15,20 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_A05B59A79D31730EF5CE439F3B5BA816"
-        "OwnerKey" = "8:_D9E59618AA4A4B7BB2F9E9458099B372"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_D9E59618AA4A4B7BB2F9E9458099B372"
+        "MsmKey" = "8:_9BFE527D9A75405BB5E1BE5B66B56E5C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
+        "MsmKey" = "8:_A05B59A79D31730EF5CE439F3B5BA816"
+        "OwnerKey" = "8:_9BFE527D9A75405BB5E1BE5B66B56E5C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D9E59618AA4A4B7BB2F9E9458099B372"
+        "OwnerKey" = "8:_9BFE527D9A75405BB5E1BE5B66B56E5C"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -353,13 +353,13 @@
         {
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_78D789DF86F3452388925B02F694B7AC"
             {
-            "Name" = "8:SV"
+            "Name" = "8:SV - ERP"
             "Arguments" = "8:"
             "Description" = "8:SV - SISTEMA"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_D9E59618AA4A4B7BB2F9E9458099B372"
+            "Target" = "8:"
             "Folder" = "8:_DCF428CBD06249DA90E92897C9C51558"
             "WorkingFolder" = "8:_3E6892B26F064E3E9055C77DB54D7280"
             "Icon" = "8:"
@@ -367,13 +367,13 @@
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_E1A1AF2AD65B4DFBB53C4D7D15B14C7A"
             {
-            "Name" = "8:SV"
+            "Name" = "8:SV - ERP"
             "Arguments" = "8:"
             "Description" = "8:SV - ERP"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_D9E59618AA4A4B7BB2F9E9458099B372"
+            "Target" = "8:"
             "Folder" = "8:_88756381DF4C4FF09100EDC02D80DDA1"
             "WorkingFolder" = "8:_3E6892B26F064E3E9055C77DB54D7280"
             "Icon" = "8:"
@@ -778,7 +778,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_D9E59618AA4A4B7BB2F9E9458099B372"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9BFE527D9A75405BB5E1BE5B66B56E5C"
             {
             "SourcePath" = "8:..\\SV\\obj\\Debug\\SV - ERP.exe"
             "TargetName" = "8:"
