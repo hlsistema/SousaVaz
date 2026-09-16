@@ -132,5 +132,10 @@ namespace SV
             PDV frm = new PDV();
             frm.Show();
         }
+
+        private void administraçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

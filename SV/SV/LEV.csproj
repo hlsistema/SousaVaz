@@ -137,6 +137,12 @@
     <Compile Include="Class_Grupo.cs" />
     <Compile Include="Class_Produto.cs" />
     <Compile Include="Class_Usuario.cs" />
+    <Compile Include="Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientes.Designer.cs">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Empresa.cs">
       <SubType>Form</SubType>
     </Compile>
