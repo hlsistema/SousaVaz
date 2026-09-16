@@ -54,20 +54,20 @@
             // cadastrarToolStripMenuItem
             // 
             this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
-            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
+            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(86, 20);
             this.cadastrarToolStripMenuItem.Text = "&CADASTRAR";
             this.cadastrarToolStripMenuItem.Click += new System.EventHandler(this.cadastrarToolStripMenuItem_Click);
             // 
             // cONSULTARToolStripMenuItem
             // 
             this.cONSULTARToolStripMenuItem.Name = "cONSULTARToolStripMenuItem";
-            this.cONSULTARToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.cONSULTARToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.cONSULTARToolStripMenuItem.Text = "C&ONSULTAR";
             // 
             // aLTERARToolStripMenuItem
             // 
             this.aLTERARToolStripMenuItem.Name = "aLTERARToolStripMenuItem";
-            this.aLTERARToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
+            this.aLTERARToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.aLTERARToolStripMenuItem.Text = "&ALTERAR";
             // 
             // label1
@@ -113,6 +113,7 @@
             this.Name = "Cargo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cargo";
+            this.Load += new System.EventHandler(this.Cargo_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

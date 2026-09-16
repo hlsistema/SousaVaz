@@ -126,5 +126,11 @@ namespace SV
             Produto frm = new Produto();
             frm.Show();
         }
+
+        private void pDVToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            PDV frm = new PDV();
+            frm.Show();
+        }
     }
 }
